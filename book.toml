@@ -1,6 +1,9 @@
 [book]
-authors = ["Michael Kirk"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Emmanuel"
+title = "The ALT Space Manual"
+
+[output.html]
+git-repository-url = "https://github.com/Air-Light-Time-Space/the_manual"
+edit-url-template = "https://github.com/Air-Light-Time-Space/the_manual/edit/master/{path}"
