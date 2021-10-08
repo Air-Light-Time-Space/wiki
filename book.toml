@@ -1,0 +1,6 @@
+[book]
+authors = ["Michael Kirk"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Emmanuel"
