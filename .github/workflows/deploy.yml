@@ -1,0 +1,27 @@
+# From https://github.com/rust-lang/mdBook/pull/1248
+name: Deploy
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Install mdbook
+        uses: peaceiris/actions-mdbook@v1
+        with:
+          mdbook-version: "latest"
+
+      - name: Generate book from markdown
+        run: mdbook build
+
+      - name: Publish HTML
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./book

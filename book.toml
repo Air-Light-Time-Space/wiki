@@ -6,4 +6,4 @@ title = "The ALT Space Manual"
 
 [output.html]
 git-repository-url = "https://github.com/Air-Light-Time-Space/the_manual"
-edit-url-template = "https://github.com/Air-Light-Time-Space/the_manual/edit/master/{path}"
+edit-url-template = "https://github.com/Air-Light-Time-Space/the_manual/edit/main/{path}"

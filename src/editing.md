@@ -11,5 +11,7 @@ content lives in a series of
 [markdown](https://guides.github.com/features/mastering-markdown/) files.
 
 Whenever a change is merged, the site will be automatically rebuilt and
-redeployed using [Github Actions](). It could take a minute.
+redeployed using [Github
+Actions](https://github.com/Air-Light-Time-Space/the_manual/actions). It could
+take a minute.
 
