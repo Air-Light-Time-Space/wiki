@@ -3,7 +3,7 @@
 
 # Hard Things
 - [Electrical](electrical.md)
-- [Monthly Air Compressor Servicing](air_compressor.md)
+- [Air Compressor](air_compressor.md)
 
 # Soft Things
 - [Onboarding New Memberrs](onboarding.md)
