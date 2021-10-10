@@ -24,6 +24,3 @@ air in the lines to be extra dry, but turn it off when you are done using it. Th
 tank under the compressor also has a timed discharge port at the back that discharges
 any collected condensation on a regular interval (as long as it remains plugged in
 and the outlet's protection switch hasn't tripped).
-
-[Edit this page!](https://github.com/Air-Light-Time-Space/the_manual/edit/main/src/air_compressor.md)
-
