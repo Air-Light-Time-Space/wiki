@@ -1,7 +1,7 @@
 # Bi-yearly Air Compressor Servicing
 
 Several compressed air lines run through the space. The compressor lives under
-the stairs in the alley, accessible from the back door in the main space.
+the stairs in the west alley, accessible from the back door in the main space.
 
 It's good to check the compressor every 6 months or so to make sure it has oil.
 There is a reminder to do this on the shared calendar. It's good to take a look
