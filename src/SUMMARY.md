@@ -19,3 +19,6 @@
 - [Updating this Manual](editing.md)
 
 
+
+
+# [Meeting Minutes](minutes/README.md)
