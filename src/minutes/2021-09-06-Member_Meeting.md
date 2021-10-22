@@ -1,4 +1,4 @@
-## 2021-10-04 Member's Meeting
+## 2021-09-06 Member's Meeting
 
 Minutes recorded by: **Aidan**
 
