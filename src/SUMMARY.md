@@ -2,6 +2,7 @@
 
 - [Have you read the Manual?](index.md)
 - [Responsibilities](responsibilities.md)
+- [Management](management.md)
 
 # Maintenance
 
