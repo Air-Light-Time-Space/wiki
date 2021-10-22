@@ -78,11 +78,11 @@ Members in attendance: **Adalynne, Ankur, Ben, Jack, Geoff, Noah, Olivia, Brando
 
 **Vision:**  ALTSpace will be a community institution with limitless possibilities to design, build, and perform creative endeavors in the company of inspiring people - A collaborative hub that can accommodate large scale art builds, learning and education spaces, community meetings, interactive galleries, performances, and events.
 
-**Values:
-Accessibility - ease of access for all (adult) human-types regardless of experience, skill, income, or physical ability.
-Active Inclusivity - members will actively welcome and engage with other members, provide tours to prospective members, and recruit friends.
-Respect / Anti-Chauvanism - harassment, patronization, and other such bullshit will not be tolerated
-Participation - members contribute to the life and maintenance of the space as often as they are able
-Economic Opportunity - support artists in earning a living from their craft and hobbyists who wish to turn their passion into a source of income.
-Outreach - Continual exploration of ways to plug into the Central District neighborhood and greater Seattle creative community.
-20% Rule - Leave the space 20% cleaner than you found it.**
+**Values:**
+* **Accessibility - ease of access for all (adult) human-types regardless of experience, skill, income, or physical ability.**
+* **Active Inclusivity - members will actively welcome and engage with other members, provide tours to prospective members, and recruit friends.**
+* **Respect / Anti-Chauvanism - harassment, patronization, and other such bullshit will not be tolerated**
+* **Participation - members contribute to the life and maintenance of the space as often as they are able**
+* **Economic Opportunity - support artists in earning a living from their craft and hobbyists who wish to turn their passion into a source of income.**
+* **Outreach - Continual exploration of ways to plug into the Central District neighborhood and greater Seattle creative community.**
+* **20% Rule - Leave the space 20% cleaner than you found it.**
