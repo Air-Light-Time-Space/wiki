@@ -3,7 +3,7 @@
 Any current member can onboard a new member to the space.
 
 Make sure that the new member:
-* Has filled out a waiver
+* Has filled out a [waiver](waivers.md)
 * Has read and understands the [rules of the space](https://altspaceseattle.com/alt-rules/)
 * Has made at least one payment of membership dues by cash, check, or paypal
 
