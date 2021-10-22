@@ -79,8 +79,11 @@ Votes for officers:
 
 ## Rates
 Noah proposes we make $250 the new rate for Pro membership – 4/4 yes
+
 Basic rate moved to $65 for voting? – 4/4 yes
+
 Vera says she thinks it could be a little more expensive than $50. Noah says he chose the $50 rate for Basic members because they were 2/3 of the membership and we didn’t have pros at beginning of COVID. Now we’re saying your $50/person
+
 Keep supporter name your own price? 3 of 4 board members say Yes
 
 ## Bylaws
