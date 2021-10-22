@@ -13,7 +13,7 @@ into a number of folders:
 * *Basic* - All currently active Basic members
 * *Supporter* - All currently active Supporter members
 * *Potential* - People who filled out a waiver but haven't signed up yet.
--- It's good to go through every now and again and shred the ones of these
+-- It's good to go through these every now and again and shred the ones
 that are really old. If our membership is low, you can reach out to these
 people before shredding their PII and ask if they're still interested in signing up.
 * *Previous users* - Not really a folder, but a large stack of previous members/
