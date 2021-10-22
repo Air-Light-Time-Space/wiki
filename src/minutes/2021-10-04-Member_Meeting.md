@@ -1,7 +1,8 @@
 ## 2021-10-04 Member's Meeting
 
-**Minutes recorded by: Aidan**
-**Members in attendance: 11 Individuals**
+Minutes recorded by: **Aidan**
+
+Members in attendance: **11 Individuals**
 
 ---
 
