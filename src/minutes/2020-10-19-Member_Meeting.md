@@ -23,24 +23,24 @@ Members in attendance: **Adalynne, Ankur, Ben, Jack, Geoff, Noah, Olivia, Brando
 
 ## Reorganization
 
-**INW storage clear-out**
-* Confine to a pro-space?
-* Postpone woodshop idea if they carry the cost of the garage
-* Need the space for new pro-members
+* INW storage clear-out
+  * Confine to a pro-space?
+  * Postpone woodshop idea if they carry the cost of the garage
+  * Need the space for new pro-members
 
 
 ## Member Needs
 * Access code clarity - repository
-- Ron changed lock on side-gate
-- Anyone know python coding? Jack will work with Noah.
+  * Ron changed lock on side-gate
+  * Anyone know python coding? Jack will work with Noah.
 * Get the glow forge back 
 * New laser cutter but needs tubes
 * Olivia needs their pro-space
 
 ## New Lease Agreement
 * Month to month or negotiate new annual terms
-- Escalation clause
-- Side walkway/antenna mast(/ship door room&electric)
+  * Escalation clause
+  * Side walkway/antenna mast(/ship door room&electric)
 * Insurance issue
 * Ron negotiation strategy - we’d like to continue month to month, but will circle back in 3 months knowing what membership trajectory is.
 * Bills are paid
@@ -53,10 +53,10 @@ Members in attendance: **Adalynne, Ankur, Ben, Jack, Geoff, Noah, Olivia, Brando
 
 ## Divison of Labor / Bandwidth Check
 * Tours
-- Could resume Sun tours
-- Match calendar events to tours - sendout to email willingness to give tours.  New members might not feel comfortable.
-- Expand the alias, kick to larger group as needed.
-- Work with the door open.  
+  * Could resume Sun tours
+  * Match calendar events to tours - sendout to email willingness to give tours.  New members might not feel comfortable.
+  * Expand the alias, kick to larger group as needed.
+  * Work with the door open.  
 
 ## Tool Library
 * Email accountability sufficient?
@@ -64,17 +64,17 @@ Members in attendance: **Adalynne, Ankur, Ben, Jack, Geoff, Noah, Olivia, Brando
 * Need a computerized inventory - tagging isn’t always kept up
 * Tool chit system - name and phone number for communal tools.
 * Write proposal for vote at next meeting.
-- Include return date, 3 day limit
-- 48 hour lead time
+  * Include return date, 3 day limit
+  * 48 hour lead time
 * Geoffery willing to write inventory system
 
 
 
 ## Draft MISSION / VISION / VALUES / BYLAWS (501c7?)
 **Mission:**
-* ALTSpace is a radically inclusive makerspace that builds artistic community through creation of epic shit in the company of inspiring people of all abilities and experience.
-* Reduce environmental and economic waste through sharing tools and materials
-* Share, learn, and collaborate in a welcoming and actively inclusive space.
+* **ALTSpace is a radically inclusive makerspace that builds artistic community through creation of epic shit in the company of inspiring people of all abilities and experience.**
+* **Reduce environmental and economic waste through sharing tools and materials**
+* **Share, learn, and collaborate in a welcoming and actively inclusive space.**
 
 **Vision:**  ALTSpace will be a community institution with limitless possibilities to design, build, and perform creative endeavors in the company of inspiring people - A collaborative hub that can accommodate large scale art builds, learning and education spaces, community meetings, interactive galleries, performances, and events.
 
