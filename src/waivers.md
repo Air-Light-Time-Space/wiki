@@ -1,3 +1,5 @@
+# Liability Waivers
+
 **ALL** users of the space must complete and sign a
 [Liability Waiver](https://altspaceseattle.com/ALTSpace_Liability_Waiver.pdf)
 before making use of any of the tools or amenities at the space.
