@@ -5,6 +5,7 @@
 
 # Maintenance
 
+- [Garage Doors](garage_doors.md)
 - [Electrical](electrical.md)
 - [Air Compressor](air_compressor.md)
 - [Annual Fire Permit](fire_permit.md)
