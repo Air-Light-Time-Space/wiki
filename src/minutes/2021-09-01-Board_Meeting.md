@@ -84,7 +84,7 @@ Vera says she thinks it could be a little more expensive than $50. Noah says he 
 Keep supporter name your own price? 3 of 4 board members say Yes
 
 ## Bylaws
-    • Bylaws proposed to membership? – 4/4 yes
+* Bylaws proposed to membership? – 4/4 yes
 The bylaws are in email but once ratified these will be posted on our website. 
 First 3 years, board members can make changes by 2/3 vote. After 3 years the membership needs to vote on changes to the bylaws.
 
@@ -107,9 +107,9 @@ Has been in the space since he was kicked out. Don’t think he’s been in the 
 
 ## Other notes
 Vera wants to figure out where to electronically track our documents etc. 
-    • INW had Google Drive and our stuff is on there.
-    • Aiden doesn’t like Google and Noah happy to go away from it. 
-    • Vera is happy with Wave Accounting, and it’s free. 
+* INW had Google Drive and our stuff is on there.
+* Aiden doesn’t like Google and Noah happy to go away from it. 
+* Vera is happy with Wave Accounting, and it’s free. 
 
 Other agenda items?
 **Wet walls for winter?** Vera asked if this will be a problem this year. Noah says he hopes that the renovations are good for this. Alternately, this is a courtyard overflow issue that Ron needs a french drain for. So we’d wait til after signing a new lease to ask for a solution to this. 
