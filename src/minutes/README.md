@@ -19,3 +19,15 @@ and direction for space decisions.
 * [2020-08-17 - Monthly Member's Meeting](2020-08-17-Member_Meeting.md)
 * [2020-07-06 - Monthly Member's Meeting](2020-07-06-Member_Meeting.md)
 * [2020-05-05 - Monthly Member's Meeting](2020-05-05-Member_Meeting.md)
+* [2020-04-30 - Special Member's Meeting](2020-04-30-Member_Meeting.md)
+
+## 2019
+* [2019-08-05 - Monthly Member's Meeting](2019-08-05-Member_Meeting.md)
+* [2019-06-03 - Monthly Member's Meeting](2019-06-03-Member_Meeting.md)
+* [2019-04-01 - Monthly Member's Meeting](2019-04-01-Member_Meeting.md)
+* [2019-02-04 - Monthly Member's Meeting](2019-02-04-Member_Meeting.md)
+* [2019-01-07 - Monthly Member's Meeting](2019-01-07-Member_Meeting.md)
+
+## 2018
+* [2018-08-08 - Monthly Member's Meeting](2018-08-08-Member_Meeting.md)
+* [2018-03-01 - Member Meeting](2018-03-01-Member_Meeting.md)
