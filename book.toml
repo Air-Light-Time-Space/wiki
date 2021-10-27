@@ -7,3 +7,8 @@ title = "The ALT Space Manual"
 [output.html]
 git-repository-url = "https://github.com/Air-Light-Time-Space/the_manual"
 edit-url-template = "https://github.com/Air-Light-Time-Space/the_manual/edit/main/{path}"
+no-section-label = true
+
+[output.html.fold]
+enable = true
+level = 0
