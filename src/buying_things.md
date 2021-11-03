@@ -5,10 +5,12 @@ Part of this is restocking maintenance supplies.
 
 ## You can make small purchases to keep the space running smoothly
 
-If the space needs something small and uncontroversial to stay nice, e.g.
-toilet paper or trash bags, any member is empowered to spend up to $50 on such
-things, and can expect to be reimbursed in a timely manner. Don't accrue more
-than $50 of expenses before being reimbursed.
+You can buy anything on the [Shopping
+List](https://docs.google.com/spreadsheets/d/17nph-7mVd-YzlKXFxk2uTholVokZJ7OVb105P4w_eaY/edit?usp=sharing)
+and expect to be reimbursed. Unless otherwise noted on the shopping list, don't
+accrue more than $50 of shopping without getting specific approval from a board
+member. If something is not on the list, email a proposal to amend the list for
+the next member meeting.
 
 After making your purchase, immediately email a reimbursement request to
 <altspace-finance@googlegroups.com>.
