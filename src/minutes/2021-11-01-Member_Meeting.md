@@ -2,7 +2,7 @@
 
 Minutes recorded by: **Aidan**
 
-Members in attendance: **8 Individuals**
+Members in attendance: **Aiden, Andrew, Edward, Marshall, Michael, Noah, Valerie, Vera**
 
 ---
 
