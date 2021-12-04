@@ -8,7 +8,7 @@ closet in the main space. This door is locked to slow down modifications from
 cavalier hackers (apparently this has been an issue in the past). If a circuit
 blows, ask around and you can probably find a way in to get it reset.
 
-## Woodhsop
+## Woodshop
 
 The legacy wiring in the woodshop is prone to flipping the circuit breaker, especially when working with hard woods in the table saw or planer.
 
