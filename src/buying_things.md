@@ -7,10 +7,11 @@ Part of this is restocking maintenance supplies.
 
 You can buy anything on the [Shopping
 List](https://docs.google.com/spreadsheets/d/17nph-7mVd-YzlKXFxk2uTholVokZJ7OVb105P4w_eaY/edit?usp=sharing)
-and expect to be reimbursed. Unless otherwise noted on the shopping list, don't
-accrue more than $50 of shopping without getting specific approval from a board
-member. If something is not on the list, email a proposal to amend the list for
-the next member meeting.
+and expect to be reimbursed. You can propose changes to the list at the next
+member meeting. Unless otherwise noted on the shopping list, don't accrue more
+than $50 of shopping without getting specific approval from a board member. Do
+note that the treasurer reserves the right to veto any reimbursement in cases
+of abuse.
 
 After making your purchase, immediately email a reimbursement request to
 <altspace-finance@googlegroups.com>.
