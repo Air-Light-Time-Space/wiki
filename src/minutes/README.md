@@ -4,6 +4,8 @@ Minutes from past meetings are reproduced here to provide context
 and direction for space decisions.
 
 ## 2021
+
+* [2021-12-06 - Monthly Member's Meeting](2021-12-06-Member_Meeting.md)
 * [2021-11-01 - Monthly Member's Meeting](2021-11-01-Member_Meeting.md)
 * [2021-10-04 - Monthly Member's Meeting](2021-10-04-Member_Meeting.md)
 * [2021-09-06 - Monthly Member's Meeting](2021-09-06-Member_Meeting.md)

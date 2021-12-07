@@ -22,6 +22,7 @@
 ---
 
 - [Meeting Minutes](minutes/README.md)
+  -  [2021-12-06](minutes/2021-12-06-Member_Meeting.md)
   -  [2021-11-01](minutes/2021-11-01-Member_Meeting.md)
   -  [2021-10-04](minutes/2021-10-04-Member_Meeting.md)
   -  [2021-09-06](minutes/2021-09-06-Member_Meeting.md)
