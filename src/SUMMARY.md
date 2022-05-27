@@ -6,6 +6,7 @@
 
 # Maintenance
 
+- [Buying Things](buying_things.md)
 - [Garage Doors](garage_doors.md)
 - [Electrical](electrical.md)
 - [Air Compressor](air_compressor.md)
