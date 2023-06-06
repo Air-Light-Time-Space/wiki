@@ -24,5 +24,5 @@ users of the space, sorted reverse chronologically
 rejoin the space for whatever reason. Write notes on the back of the waiver.
 
 If you have a waiver you need to file but you don't know the code to the safe,
-you can fold it in half and stick it in the cash payments box above the first
+you can fold it in half and stick it in the cash payments box near the first
 aid kit.
