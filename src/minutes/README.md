@@ -5,6 +5,7 @@ and direction for space decisions.
 
 ## 2023
 
+* [2023-07-03 - Monthly Member's Meeting](2023-07-03-Member_Meeting.md)
 * [2023-06-05 - Monthly Member's Meeting](2023-06-05-Member_Meeting.md)
 
 ## 2021
