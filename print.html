@@ -5,8 +5,10 @@
         <meta charset="UTF-8">
         <title>The ALT Space Manual</title>
         <meta name="robots" content="noindex" />
+
+
         <!-- Custom HTML head -->
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
@@ -17,25 +19,29 @@
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
         <link rel="stylesheet" href="css/print.css" media="print">
+
         <!-- Fonts -->
         <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
         <link rel="stylesheet" href="fonts/fonts.css">
+
         <!-- Highlight.js Stylesheets -->
         <link rel="stylesheet" href="highlight.css">
         <link rel="stylesheet" href="tomorrow-night.css">
         <link rel="stylesheet" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+
     </head>
     <body>
+    <div id="body-container">
         <!-- Provide site root to javascript -->
-        <script type="text/javascript">
+        <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
-        <script type="text/javascript">
+        <script>
             try {
                 var theme = localStorage.getItem('mdbook-theme');
                 var sidebar = localStorage.getItem('mdbook-sidebar');
@@ -51,7 +57,7 @@
         </script>
 
         <!-- Set the theme before any content is loaded, prevents flash -->
-        <script type="text/javascript">
+        <script>
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
@@ -63,12 +69,14 @@
         </script>
 
         <!-- Hide / unhide sidebar before it is displayed -->
-        <script type="text/javascript">
+        <script>
             var html = document.querySelector('html');
-            var sidebar = 'hidden';
+            var sidebar = null;
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
             }
             html.classList.remove('sidebar-visible');
             html.classList.add("sidebar-" + sidebar);
@@ -76,7 +84,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item "><a href="index.html">Have you read the Manual?</a></li><li class="chapter-item "><a href="responsibilities.html">Responsibilities</a></li><li class="chapter-item "><a href="management.html">Management</a></li><li class="chapter-item affix "><li class="part-title">Maintenance</li><li class="chapter-item "><a href="garage_doors.html">Garage Doors</a></li><li class="chapter-item "><a href="electrical.html">Electrical</a></li><li class="chapter-item "><a href="air_compressor.html">Air Compressor</a></li><li class="chapter-item "><a href="fire_permit.html">Annual Fire Permit</a></li><li class="chapter-item "><a href="first_aid.html">First Aid Supplies</a></li><li class="chapter-item affix "><li class="part-title">Processes</li><li class="chapter-item "><a href="onboarding.html">Onboarding New Members</a></li><li class="chapter-item "><a href="waivers.html">Liability Waivers</a></li><li class="chapter-item "><a href="editing.html">Updating this Manual</a></li><li class="spacer"></li><li class="chapter-item "><a href="minutes/index.html">Meeting Minutes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="minutes/2021-12-06-Member_Meeting.html">2021-12-06</a></li><li class="chapter-item "><a href="minutes/2021-11-01-Member_Meeting.html">2021-11-01</a></li><li class="chapter-item "><a href="minutes/2021-10-04-Member_Meeting.html">2021-10-04</a></li><li class="chapter-item "><a href="minutes/2021-09-06-Member_Meeting.html">2021-09-06</a></li><li class="chapter-item "><a href="minutes/2021-09-01-Board_Meeting.html">2021-09-01</a></li><li class="chapter-item "><a href="minutes/2021-07-05-Member_Meeting.html">2021-07-05</a></li><li class="chapter-item "><a href="minutes/2021-06-07-Member_Meeting.html">2021-06-07</a></li><li class="chapter-item "><a href="minutes/2021-05-03-Member_Meeting.html">2021-05-03</a></li><li class="chapter-item "><a href="minutes/2021-04-19-Member_Meeting.html">2021-04-19</a></li><li class="chapter-item "><a href="minutes/2021-03-15-Member_Meeting.html">2021-03-15</a></li><li class="chapter-item "><a href="minutes/2020-11-16-Member_Meeting.html">2020-11-16</a></li><li class="chapter-item "><a href="minutes/2020-10-19-Member_Meeting.html">2020-10-19</a></li><li class="chapter-item "><a href="minutes/2020-08-17-Member_Meeting.html">2020-08-17</a></li><li class="chapter-item "><a href="minutes/2020-07-06-Member_Meeting.html">2020-07-06</a></li><li class="chapter-item "><a href="minutes/2020-05-05-Member_Meeting.html">2020-05-05</a></li><li class="chapter-item "><a href="minutes/2020-04-30-Member_Meeting.html">2020-04-30</a></li><li class="chapter-item "><a href="minutes/2019-08-05-Member_Meeting.html">2019-08-05</a></li><li class="chapter-item "><a href="minutes/2019-06-03-Member_Meeting.html">2019-06-03</a></li><li class="chapter-item "><a href="minutes/2019-04-01-Member_Meeting.html">2019-04-01</a></li><li class="chapter-item "><a href="minutes/2019-02-04-Member_Meeting.html">2019-02-04</a></li><li class="chapter-item "><a href="minutes/2019-01-07-Member_Meeting.html">2019-01-07</a></li><li class="chapter-item "><a href="minutes/2018-08-08-Member_Meeting.html">2018-08-08</a></li><li class="chapter-item "><a href="minutes/2018-03-01-Member_Meeting.html">2018-03-01</a></li></ol></li></ol>
+                <ol class="chapter"><li class="chapter-item "><a href="index.html">Have you read the Manual?</a></li><li class="chapter-item "><a href="responsibilities.html">Responsibilities</a></li><li class="chapter-item "><a href="management.html">Management</a></li><li class="chapter-item affix "><li class="part-title">Maintenance</li><li class="chapter-item "><a href="garage_doors.html">Garage Doors</a></li><li class="chapter-item "><a href="electrical.html">Electrical</a></li><li class="chapter-item "><a href="air_compressor.html">Air Compressor</a></li><li class="chapter-item "><a href="fire_permit.html">Annual Fire Permit</a></li><li class="chapter-item "><a href="first_aid.html">First Aid Supplies</a></li><li class="chapter-item affix "><li class="part-title">Processes</li><li class="chapter-item "><a href="onboarding.html">Onboarding New Members</a></li><li class="chapter-item "><a href="waivers.html">Liability Waivers</a></li><li class="chapter-item "><a href="editing.html">Updating this Manual</a></li><li class="spacer"></li><li class="chapter-item "><a href="minutes/index.html">Meeting Minutes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="minutes/2023-06-05-Member_Meeting.html">2023-06-05</a></li><li class="chapter-item "><a href="minutes/2021-12-06-Member_Meeting.html">2021-12-06</a></li><li class="chapter-item "><a href="minutes/2021-11-01-Member_Meeting.html">2021-11-01</a></li><li class="chapter-item "><a href="minutes/2021-10-04-Member_Meeting.html">2021-10-04</a></li><li class="chapter-item "><a href="minutes/2021-09-06-Member_Meeting.html">2021-09-06</a></li><li class="chapter-item "><a href="minutes/2021-09-01-Board_Meeting.html">2021-09-01</a></li><li class="chapter-item "><a href="minutes/2021-07-05-Member_Meeting.html">2021-07-05</a></li><li class="chapter-item "><a href="minutes/2021-06-07-Member_Meeting.html">2021-06-07</a></li><li class="chapter-item "><a href="minutes/2021-05-03-Member_Meeting.html">2021-05-03</a></li><li class="chapter-item "><a href="minutes/2021-04-19-Member_Meeting.html">2021-04-19</a></li><li class="chapter-item "><a href="minutes/2021-03-15-Member_Meeting.html">2021-03-15</a></li><li class="chapter-item "><a href="minutes/2020-11-16-Member_Meeting.html">2020-11-16</a></li><li class="chapter-item "><a href="minutes/2020-10-19-Member_Meeting.html">2020-10-19</a></li><li class="chapter-item "><a href="minutes/2020-08-17-Member_Meeting.html">2020-08-17</a></li><li class="chapter-item "><a href="minutes/2020-07-06-Member_Meeting.html">2020-07-06</a></li><li class="chapter-item "><a href="minutes/2020-05-05-Member_Meeting.html">2020-05-05</a></li><li class="chapter-item "><a href="minutes/2020-04-30-Member_Meeting.html">2020-04-30</a></li><li class="chapter-item "><a href="minutes/2019-08-05-Member_Meeting.html">2019-08-05</a></li><li class="chapter-item "><a href="minutes/2019-06-03-Member_Meeting.html">2019-06-03</a></li><li class="chapter-item "><a href="minutes/2019-04-01-Member_Meeting.html">2019-04-01</a></li><li class="chapter-item "><a href="minutes/2019-02-04-Member_Meeting.html">2019-02-04</a></li><li class="chapter-item "><a href="minutes/2019-01-07-Member_Meeting.html">2019-01-07</a></li><li class="chapter-item "><a href="minutes/2018-08-08-Member_Meeting.html">2018-08-08</a></li><li class="chapter-item "><a href="minutes/2018-03-01-Member_Meeting.html">2018-03-01</a></li></ol></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -84,7 +92,7 @@
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                <div id="menu-bar-hover-placeholder"></div>
+                                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky bordered">
                     <div class="left-buttons">
                         <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
@@ -94,7 +102,7 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
-                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
@@ -114,6 +122,7 @@
                         <a href="https://github.com/Air-Light-Time-Space/the_manual" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
                         </a>
+
                     </div>
                 </div>
 
@@ -127,8 +136,9 @@
                         </ul>
                     </div>
                 </div>
+
                 <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
-                <script type="text/javascript">
+                <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
                     Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
@@ -402,6 +412,10 @@ take a minute.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="meeting-minutes"><a class="header" href="#meeting-minutes">Meeting Minutes</a></h1>
 <p>Minutes from past meetings are reproduced here to provide context
 and direction for space decisions.</p>
+<h2 id="2023"><a class="header" href="#2023">2023</a></h2>
+<ul>
+<li><a href="minutes/2023-06-05-Member_Meeting.html">2023-06-05 - Monthly Member's Meeting</a></li>
+</ul>
 <h2 id="2021"><a class="header" href="#2021">2021</a></h2>
 <ul>
 <li><a href="minutes/2021-12-06-Member_Meeting.html">2021-12-06 - Monthly Member's Meeting</a></li>
@@ -437,6 +451,65 @@ and direction for space decisions.</p>
 <li><a href="minutes/2018-08-08-Member_Meeting.html">2018-08-08 - Monthly Member's Meeting</a></li>
 <li><a href="minutes/2018-03-01-Member_Meeting.html">2018-03-01 - Member Meeting</a></li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="2023-06-05-members-meeting"><a class="header" href="#2023-06-05-members-meeting">2023-06-05 Member's Meeting</a></h2>
+<p>Minutes recorded by: <strong>Michael Kirk</strong></p>
+<p>4 Members in attendance: <strong>Matt Chang, Maxx, Michael Kirk, Noah</strong></p>
+<hr />
+<h2 id="noah-filed-our-federal-taxes-"><a class="header" href="#noah-filed-our-federal-taxes-">Noah: filed our federal taxes. 💸</a></h2>
+<p>Noah successfully filed last three years of federal taxes.</p>
+<p>We may be liable for a fine for the filing delays, but Noah requested an exemption.
+Noah mentioned <em>worst case</em> would be something like $10/day up to $10k, but given we're such a small organization that seems unlikely.</p>
+<p>(https://www.irs.gov/payments/failure-to-file-penalty says the max penalty is 25% of your taxes, so it seems like it'd be much less than that if they decide to fine at all)</p>
+<ul>
+<li>👷 TODO Noah: Official change of address form</li>
+<li>👷 TODO Noah:  Washington state taxes</li>
+<li>👷 TODO Michael: Business license renewal (update board members).</li>
+</ul>
+<h2 id="michael-noted-meeting-attendance-is-sparse"><a class="header" href="#michael-noted-meeting-attendance-is-sparse">Michael: noted meeting attendance is sparse.</a></h2>
+<p>It'd be nice to have more people at the meetings. We talked about some ways to have automated reminders and to solicit agenda items.</p>
+<ul>
+<li>👷 TODO michael: set up calendaring system to remind himself to broadcast via email/discord ~5 days before the meeting and the day before the meeting.</li>
+</ul>
+<h2 id="noah-reported-the-video-conference-link-is-broken"><a class="header" href="#noah-reported-the-video-conference-link-is-broken">Noah: reported the video conference link is broken.</a></h2>
+<p>We used to have a stable link to our video conference / virtual meeting at aloha.altspaceseattle.com. It's currently broken so we've been using an adhoc solution in the meanwhile. Michael may have broken it while updating our website ssl (sorry!).</p>
+<p>It's partially a custom piece of software written by Noah.</p>
+<ul>
+<li>👷 TODO michael: going to &quot;take a look&quot; and probably ask Noah for help if he gets stuck.</li>
+</ul>
+<h2 id="maxx-wants-to-tweak-the-layout-upstairs"><a class="header" href="#maxx-wants-to-tweak-the-layout-upstairs">Maxx: wants to tweak the layout upstairs.</a></h2>
+<p>Maxx proposed swapping the electronics+3-d printers with the sewing area, so that the soldering and 3-d printers can be closer to potential ventilation access along the North wall.</p>
+<ul>
+<li>👷 TODO maxx: follow up w/ Matt Mackenzie (@msm) who's been actively organizing the upstairs space.</li>
+</ul>
+<h2 id="maxx-is-going-to-donate-a-workbench"><a class="header" href="#maxx-is-going-to-donate-a-workbench">Maxx: is going to donate a workbench.</a></h2>
+<p>Maxx has a 48&quot;x32&quot;ish workbench on wheels and offered to donate it. We thought it was a good idea. Noah is going to provide a truck and they're going to move it into the space this weekend.</p>
+<ul>
+<li>👷 TODO maxx and noah: get that bench in!</li>
+</ul>
+<h2 id="michael-wants-to-sell-excess-computers-for-fundraising"><a class="header" href="#michael-wants-to-sell-excess-computers-for-fundraising">Michael: wants to sell excess computers for fundraising.</a></h2>
+<p>We were recently donated a bunch of tools and desktop PC's (like 18?).
+Some are being, or will be, put to good use around the space, but we're unlikely to utilize all of them.</p>
+<p>Michael thinks we should sell the remainder.
+No concerns raised by the group, but it was noted we could probably get more money selling them individually vs. taking the entire lot to e.g. RE-PC.
+Though it might make sense to offer a bulk discount.</p>
+<ul>
+<li>👷 TODO Michael: Post some computers on craiglist/offerup/w.e.</li>
+</ul>
+<h2 id="michael-realized-we-have-a-functioning-phone"><a class="header" href="#michael-realized-we-have-a-functioning-phone">Michael: realized we have a functioning phone.</a></h2>
+<p>Just dial 1-87-SPACE-ALTS!</p>
+<p>Michael was surprised when the phone in the space rang and answered it and it was a real person calling for a tour. Apparently Dan fixed the phone recently. Thanks Dan!</p>
+<p>Long ago (at the cherry st. location?) there used to be a failover, so if no one answered the phone, it'd roll over to a members cell phone, but that no longer seems to be in place.
+We could set that up again, but no one stepped up to bottom line this.</p>
+<ul>
+<li>👷 TODO &quot;someone should&quot;: set up phone failover system. Maybe a pager-duty style rotation to spread the burden.</li>
+</ul>
+<h2 id="matt-chang-wants-to-set-up-a-pottery-corner"><a class="header" href="#matt-chang-wants-to-set-up-a-pottery-corner">Matt Chang: wants to set up a pottery corner</a></h2>
+<p>Matt wants to set up a pottery station with our potters wheel.
+It might be especially good for people who can't operate within Seattle Artist League's hours.
+No concerns raised by the group.</p>
+<h2 id="maxx-is-concerned-about-dust-upstairs"><a class="header" href="#maxx-is-concerned-about-dust-upstairs">Maxx: is concerned about dust upstairs.</a></h2>
+<p>Maxx suggested hanging some sheets or other dividers.
+No specific plan of action was proposed, but it seemed like a good concept with no objections raised.</p>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="2021-12-06-members-meeting"><a class="header" href="#2021-12-06-members-meeting">2021-12-06 Member's Meeting</a></h2>
 <p>Minutes recorded by: <strong>Aidan, Michael</strong></p>
 <p>7 Members in attendance: <strong>Aiden, Andrew, Bryan, Matt, Michael, Valerie</strong></p>
@@ -1793,31 +1866,43 @@ Open house - combine with Critical events. Binders with models available</p>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+
+
                         <div style="clear: both"></div>
                     </nav>
                 </div>
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+
             </nav>
 
         </div>
 
-        <script type="text/javascript">
+
+
+
+        <script>
             window.playground_copyable = true;
         </script>
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
-        <script type="text/javascript">
+
+        <script>
         window.addEventListener('load', function() {
             window.setTimeout(window.print, 100);
         });
         </script>
+
+    </div>
     </body>
 </html>
