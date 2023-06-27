@@ -3,6 +3,8 @@
 The content of this manual lives at
 <https://github.com/Air-Light-Time-Space/wiki>.
 
+The navigation menu is defined in the [SUMMARY.md file](https://github.com/Air-Light-Time-Space/wiki/edit/main/src/SUMMARY.md).
+
 If you're not familiar with Github, or otherwise have questions about editing
 the manual, feel free to ask in our discord server or on the mailing list.
 
