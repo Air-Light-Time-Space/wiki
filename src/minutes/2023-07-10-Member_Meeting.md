@@ -1,4 +1,4 @@
-## 2023-07-03 Member's Meeting
+## 2023-07-10 Member's Meeting
 
 Minutes recorded by: **???**
 
@@ -8,13 +8,12 @@ Minutes recorded by: **???**
 
 ## Agenda
 
+- Michael Kirk: Brainstorm about where to make more pro-spaces (10 minutes)
+- (your item here)
+
 If you'd like to add something to the meeting agenda, add it here before the meeting.
 Please include your name, topic, and how long you think it should take.
 
-No one has added any agenda items for this meeting yet, but you can be the first!
 
-Example:
-- Johnny Appleseed: Fake proposal for cider press (10 minutes)
-- Ada Lovelace: Fake announcement for hacker fair (5 minutes)
 
 If you don't know how to edit this page, please ask someone on discord or the mailing list to do it for you.
