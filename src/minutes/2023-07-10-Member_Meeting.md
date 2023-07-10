@@ -10,6 +10,7 @@ Minutes recorded by: **???**
 
 - Michael Kirk: Brainstorm about where to make more pro-spaces (10 minutes)
 - Michael Kirk: Propose altspace social (laser engraver party?) (10 minutes)
+- Andrew Huff: 💸 Treasure's report (5 minutes)
 - (your item here)
 
 If you'd like to add something to the meeting agenda, add it here before the meeting.
