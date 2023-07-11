@@ -29,7 +29,7 @@ Since it's typically the same group of people using all these things, let's cons
 
 You've probably noticed the WiFi at altspace has been awfully "droppy" for months.
 
-👷 TODONE Esther and Cody did some debugging after the meeting and identified the access point was connected with a [cursed](https://networkengineering.stackexchange.com/questions/55572/rj45-cable-only-has-4-wires) "ethernet" cable.
+- 👷👷  TODONE Esther and Cody did some debugging after the meeting and identified the access point was connected with a [cursed](https://networkengineering.stackexchange.com/questions/55572/rj45-cable-only-has-4-wires) "ethernet" cable.
 The cable was ~~sent back to hell~~ unceremoniously retired and presumably now the wifi is great.
 
 Thanks Esther and Cody!
@@ -42,7 +42,7 @@ Some attendees committed private funds and we agreed to make up the difference w
 
 If you're excited about having a nice dedicated metal bandsaw (*cough* THE WOODSHOP BANDSAW IS NOT FOR METAL *cough*), and want to keep altspace in the black, contact Andrew and commit some funds.
 
-## Andrew: reminded us we have a lot of computers to sell. 🖥️ -> 💰
+## Andrew: reminded us we have computers to sell. 🖥️->💰
 
 [Last month](/minutes/2023-06-05-Member_Meeting.html#michael-wants-to-sell-excess-computers-for-fundraising) we got some computers donated to us. We're using a few in the space, but agreed to sell the rest for fundraising.
 
