@@ -4,6 +4,10 @@
 - [Responsibilities](responsibilities.md)
 - [Management](management.md)
 
+# Guides
+
+- [Laser Engravers](laser_engravers.md)
+
 # Maintenance
 
 - [Electrical](electrical.md)
