@@ -1,0 +1,299 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Laser Engravers - The ALT Space Manual</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="index.html">Have you read the Manual?</a></li><li class="chapter-item "><a href="responsibilities.html">Responsibilities</a></li><li class="chapter-item "><a href="management.html">Management</a></li><li class="chapter-item affix "><li class="part-title">Guides</li><li class="chapter-item expanded "><a href="laser_engravers.html" class="active">Laser Engravers</a></li><li class="chapter-item affix "><li class="part-title">Maintenance</li><li class="chapter-item "><a href="electrical.html">Electrical</a></li><li class="chapter-item "><a href="air_compressor.html">Air Compressor</a></li><li class="chapter-item "><a href="fire_permit.html">Annual Fire Permit</a></li><li class="chapter-item "><a href="first_aid.html">First Aid Supplies</a></li><li class="chapter-item affix "><li class="part-title">Processes</li><li class="chapter-item "><a href="onboarding.html">Onboarding New Members</a></li><li class="chapter-item "><a href="waivers.html">Liability Waivers</a></li><li class="chapter-item "><a href="editing.html">Updating this Manual</a></li><li class="spacer"></li><li class="chapter-item "><a href="minutes/index.html">Meeting Minutes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="minutes/2023-08-07-Member_Meeting.html">2023-08-07</a></li><li class="chapter-item "><a href="minutes/2023-07-10-Member_Meeting.html">2023-07-10</a></li><li class="chapter-item "><a href="minutes/2023-06-05-Member_Meeting.html">2023-06-05</a></li><li class="chapter-item "><a href="minutes/2023-01-15-Board_Meeting.html">2023-01-15</a></li><li class="chapter-item "><a href="minutes/2022-12-06-Member_Meeting.html">2022-12-06</a></li><li class="chapter-item "><a href="minutes/2022-11-07-Member_Meeting.html">2022-11-07</a></li><li class="chapter-item "><a href="minutes/2022-02-07-Member_Meeting.html">2022-02-07</a></li><li class="chapter-item "><a href="minutes/2021-12-06-Member_Meeting.html">2021-12-06</a></li><li class="chapter-item "><a href="minutes/2021-11-01-Member_Meeting.html">2021-11-01</a></li><li class="chapter-item "><a href="minutes/2021-10-04-Member_Meeting.html">2021-10-04</a></li><li class="chapter-item "><a href="minutes/2021-09-06-Member_Meeting.html">2021-09-06</a></li><li class="chapter-item "><a href="minutes/2021-09-01-Board_Meeting.html">2021-09-01</a></li><li class="chapter-item "><a href="minutes/2021-07-05-Member_Meeting.html">2021-07-05</a></li><li class="chapter-item "><a href="minutes/2021-06-07-Member_Meeting.html">2021-06-07</a></li><li class="chapter-item "><a href="minutes/2021-05-03-Member_Meeting.html">2021-05-03</a></li><li class="chapter-item "><a href="minutes/2021-04-19-Member_Meeting.html">2021-04-19</a></li><li class="chapter-item "><a href="minutes/2021-03-15-Member_Meeting.html">2021-03-15</a></li><li class="chapter-item "><a href="minutes/2020-11-16-Member_Meeting.html">2020-11-16</a></li><li class="chapter-item "><a href="minutes/2020-10-19-Member_Meeting.html">2020-10-19</a></li><li class="chapter-item "><a href="minutes/2020-08-17-Member_Meeting.html">2020-08-17</a></li><li class="chapter-item "><a href="minutes/2020-07-06-Member_Meeting.html">2020-07-06</a></li><li class="chapter-item "><a href="minutes/2020-05-05-Member_Meeting.html">2020-05-05</a></li><li class="chapter-item "><a href="minutes/2020-04-30-Member_Meeting.html">2020-04-30</a></li><li class="chapter-item "><a href="minutes/2019-08-05-Member_Meeting.html">2019-08-05</a></li><li class="chapter-item "><a href="minutes/2019-06-03-Member_Meeting.html">2019-06-03</a></li><li class="chapter-item "><a href="minutes/2019-04-01-Member_Meeting.html">2019-04-01</a></li><li class="chapter-item "><a href="minutes/2019-02-04-Member_Meeting.html">2019-02-04</a></li><li class="chapter-item "><a href="minutes/2019-01-07-Member_Meeting.html">2019-01-07</a></li><li class="chapter-item "><a href="minutes/2018-08-08-Member_Meeting.html">2018-08-08</a></li><li class="chapter-item "><a href="minutes/2018-03-01-Member_Meeting.html">2018-03-01</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The ALT Space Manual</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Air-Light-Time-Space/the_manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Air-Light-Time-Space/the_manual/edit/main/src/laser_engravers.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="laser-engravers"><a class="header" href="#laser-engravers">Laser Engravers</a></h1>
+<p>We have two laser engravers: SpiritGX (60x95cxm) and Mercury II (43cmx61&quot;).
+You can etch and even cut out material if it's thin enough.</p>
+<h2 id="setup"><a class="header" href="#setup">Setup</a></h2>
+<ul>
+<li>Protect your eyes 👀
+<ul>
+<li>Keep the lid down and don't stare at the laser while it's printing.</li>
+</ul>
+</li>
+<li>Ventilation
+<ul>
+<li>The switch is by the metal shop door.</li>
+<li>Ensure the ventilation blast gate for your laser cutter is open.</li>
+</ul>
+</li>
+<li>Power on the laser engraver.
+<ul>
+<li>The switch for Mercury II is a little hard to find - it's on the back right corner.</li>
+</ul>
+</li>
+<li>Turn on the air blower. Without it, cuts are much more likely to flame.
+<ul>
+<li>SpiritGX has a built in air compressor in the cabinet below the engraver.
+<ul>
+<li>Currently the compressor leaks something fierce, so only have it on while you're engraving.</li>
+</ul>
+</li>
+<li>Mercury II is connected to an external air line - open it just a bit to let air flow.
+<ul>
+<li>Close it when you're done!</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="resources"><a class="header" href="#resources">Resources</a></h2>
+<p><a href="/files/laserpro-spirit-gx-usersguide.pdf">📑 SpiritGX User Guide</a></p>
+<h2 id="periodic-maintenance"><a class="header" href="#periodic-maintenance">Periodic maintenance</a></h2>
+<ul>
+<li>clean the lens following the instructions in the user guide.</li>
+</ul>
+<h2 id="software"><a class="header" href="#software">Software</a></h2>
+<p>A special print driver is needed to operate the laser engravers.
+This is already installed on the workstation connected to the engravers.</p>
+<p>I've been using <a href="https://inkscape.org">Inkscape</a> to design my prints and send them to the engravers, but there are probably other options.</p>
+<h2 id="raster-vs-vector"><a class="header" href="#raster-vs-vector">Raster vs. Vector</a></h2>
+<p>The laser can do two kind of printing.</p>
+<h3 id="raster-printing"><a class="header" href="#raster-printing">Raster Printing</a></h3>
+<img alt="raster laser engraving goes back and forth" src="/images/laser_engraving_raster.webp" height=200 />
+<p>During <strong>raster</strong> printing, the engraver will go back and forth from top to bottom, like an old inkjet printer, and pulse the laser when it's over something that needs to be etched.</p>
+<p>This seems to be the &quot;default&quot; way of engraving with our print driver. e.g. if you &quot;File &gt; Print&quot; from Inkscape, it will always print raster.</p>
+<h3 id="vector-printing"><a class="header" href="#vector-printing">Vector Printing</a></h3>
+<img alt="vector laser engraving follows the shape of the lines" src="/images/laser_engraving_vector.gif" height=200 />
+<p>During <strong>vector</strong> printing, the engraver will follow the shape of each line as it engraves.</p>
+<p>Vector prints are necessary for cutting out shapes, e.g. if you are making a stencil.
+Even if you aren't cutting all the way through material, vector lines tend to be crisper and much faster.</p>
+<p>However, vector prints can only be used to etch/cut very thin lines.
+You can't use it for broad strokes or for filling in background - raster will be used for that.</p>
+<p>Specifically, <strong>the print will only attempt to vector print line widths set between 0.001&quot; (0.025mm), 0.004&quot; (0.1mm)</strong>, everything else will be considered raster.</p>
+<img alt="moomin troll creature looking at some text that says 'Keep Clear'" src="/images/laser_engraver_moomin.jpg" height=400 />
+<p>It's OK to combine raster and vectors in a single print. In the above &quot;Keep Clear&quot; print, the letter outlines and the border rectangle were vector cut, while the letter fill and the Moomin strokes were done raster, all in a single print job.</p>
+<h4 id="steps-for-vector-printing-in-inkscape"><a class="header" href="#steps-for-vector-printing-in-inkscape">Steps for vector printing in Inkscape</a></h4>
+<p>Ensure your vector line strokes are set to 0.001&quot; inch.</p>
+<p>Go to: <code>Extensions &gt;  Export &gt; Win23 Vector Print</code></p>
+<p>This will pop up the print dialog. (🐞 It seems to always default to the SpiritGX printer, I haven't figured out how to vector print to Mercury II.)</p>
+<p>Select &quot;manual colors&quot; if you'd like to specify laser parameters like power, speed, and PPI. Then adjust settings in the &quot;Pens&quot; tab. 
+The default settings seem pretty conservative for things like etching plywood.
+A good starting point might be Speed: 30, Power: 100, PPI: 1200, but plan to do some test prints to hone in on your settings.</p>
+<h2 id="-inkscape-alpha-crashes"><a class="header" href="#-inkscape-alpha-crashes">🐞 Inkscape alpha crashes</a></h2>
+<p>There is a bug in the current stable version of Inkscape (v1.2) that prevents vector printing from working.
+To work around this we are running an alpha version of Inkscape (v1.3).
+Vector printing works, but the software often hangs. Presumably because it's bleeding edge. If you're reading this and a <a href="https://inkscape.org/release/">Inkscape 1.3 or later</a> is out. Give it a try. If it works, update the software on the laser engraver workstation and edit this page!</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="management.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="electrical.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="management.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="electrical.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
