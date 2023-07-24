@@ -1,6 +1,6 @@
 # Laser Engravers
 
-We have two laser engravers: SpiritGX (60x95cxm) and Mercury II (43cmx61").
+We have two laser engravers: SpiritGX (60x95cm) and Mercury II (43x61cm).
 You can etch and even cut out material if it's thin enough.
 
 ## Setup
