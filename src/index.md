@@ -1,4 +1,4 @@
-This is a collection of notes from members at ALT Space, a maker space in the
+This is a collection of notes from members at ALT Space, a community workshop in the
 Georgetown neighborhood of Seattle. If you're not already a member, then you probably
 want to visit <https://www.altspaceseattle.com> instead.
 
