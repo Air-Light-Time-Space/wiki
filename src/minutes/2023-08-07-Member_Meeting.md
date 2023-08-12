@@ -65,7 +65,8 @@ Altspace is different from a lot of other places, so it's important to give new 
  - Ask the new member what project(s) they are pursuing so you can give them any specific tool orientations relevant to them.
  - There is no one responsible for cleaning up your messes except yourself, so clean up after yourself + an extra 20%.
 
-👷 TODO: Michael is going to add this to the wiki
+👷 TODO: Michael is going to add this to the wiki (Update: added to the [onboarding page](/onboarding.html#orientation-essentials))
+
 
 ## Matthew (MSM): committed to bring a marketing plant to the next meeting.
 

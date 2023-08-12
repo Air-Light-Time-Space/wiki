@@ -11,6 +11,22 @@ If all of the above is true, you can tell them the codes and welcome them to the
 
 Blank waivers can be found in the filing cabinet just to your right as you walk in the keypad door. Completed waivers can be left in the cash deposit box (on that same wall next to the first aid kit).
 
+## Orientation essentials
+
+Altspace is a special place, and might operate very differently from what people are are used to.
+
+At a minimum, you should go over these things:
+
+- Exterior door: there's a little jiggle dance you have to do to get it open. Have them try.
+- Close doors/lock up when you leave.
+- There is no one responsible for cleaning up your messes except yourself,
+  so clean up after yourself + an extra 20%.
+- Tag/tape system:
+  - red (private)
+  - yellow (with permission)
+  - blue or untagged (public)
+- Ask the new member what project(s) they are pursuing so you can give them any specific tool orientations relevant to them,
+  or if it's a machine you aren't familiar with, help them ask in discord
 
 ## Communication channels
 
