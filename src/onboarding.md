@@ -13,7 +13,7 @@ Blank waivers can be found in the filing cabinet just to your right as you walk 
 
 ## Orientation essentials
 
-Altspace is a special place, and might operate very differently from what people are are used to.
+Altspace is a special place, and might operate differently from what people are used to.
 
 At a minimum, you should go over these things:
 
