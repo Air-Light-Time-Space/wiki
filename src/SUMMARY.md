@@ -25,6 +25,7 @@
 ---
 
 - [Meeting Minutes](minutes/README.md)
+  -  [2023-10-02](minutes/2023-10-02-Member_Meeting.md)
   -  [2023-09-04](minutes/2023-09-04-Member_Meeting.md)
   -  [2023-08-07](minutes/2023-08-07-Member_Meeting.md)
   -  [2023-07-10](minutes/2023-07-10-Member_Meeting.md)
