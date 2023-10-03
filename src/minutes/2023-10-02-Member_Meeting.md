@@ -1,8 +1,8 @@
 ## 2023-10-02 Member's Meeting
 
-Minutes recorded by: **???**
+Minutes recorded by: **Michael Kirk**
 
-**???** Members in attendance: **???**
+**9** Members in attendance: **Andrew (new member!), Dina (new member!), Greg, Noah, Michael Kirk, Will, Matt Chang, Andrew Huff, Matt McKenzie**
 
 ---
 
