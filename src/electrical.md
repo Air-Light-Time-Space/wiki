@@ -8,7 +8,7 @@ If you do trip a breaker use the diagrams below to identify which circuit you tr
 
 ## Circuit Diagram
 
-![alt text](/src/images/electrical/circuit_diagram.jpg)
+![alt text](./images/electrical/circuit_diagram.jpg)
 
 ## Breaker Locations
 
@@ -17,7 +17,7 @@ Neither of the two breakers are accessible without requesting access from other 
 * Breaker 1 - Located in the pottery studio across the hall from the large ALTSpace interior doors
 * Breaker 2 - Located behind the door directly across from the main ALTSpace interior door
 
-![breaker location diagram](/src/images/electrical/breaker_diagram.jpg)
+![breaker location diagram](./images/electrical/breaker_diagram.jpg)
 
 
 ## Circuit Breakers
@@ -26,8 +26,8 @@ The individual circuit breakers are labeled as "ALTSPC - *LETTER*"
 
 ### Breaker 1
 
-![breaker 1](/src/images/electrical/breaker_1.jpg)
+![breaker 1](./images/electrical/breaker_1.jpg)
 
 ### Breaker 2
 
-![breaker 2](/src/images/electrical/breaker_2.jpg)
+![breaker 2](./images/electrical/breaker_2.jpg)
