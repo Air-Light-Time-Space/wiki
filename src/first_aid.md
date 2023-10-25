@@ -21,10 +21,10 @@ Additionally the larger box in the main space should have:
 - butterfly/wound clamping bandages: e.g. 3M Steri Strip Skin Closures 1/4" X 3"
 
 **main space**
-![First aid box towards the back of the main space](./images/first_aid_box_mainspace.jpg)
+![First aid box at main interior door](./images/first_aid/first_aid_main_space.jpg)
 
 **woodshop**
-![First aid box in the woodshop](./images/first_aid_box_woodshop.jpg)
+![First aid box in the woodshop](./images/first_aid/first_aid_woodshop.jpg)
 
 **metalshop**
-![First aid box in the metalshop](./images/first_aid_box_metalshop.jpg)
+![First aid box in the metalshop](./images/first_aid/first_aid_metalshop.jpg)
