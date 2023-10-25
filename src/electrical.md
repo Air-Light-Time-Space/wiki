@@ -1,26 +1,33 @@
 # Electrical
 
-🚨 The building is currently under heavy renovation, so the details here are
-likely to change.
+Our space has a fair amount of power, however, sometimes we still trip breakers. Most outlets are labeled with their corresponding circuit for easy identification. As a general principle please do not use multiple power hungry tools on any one circuit. All 120V circuits in the space are 20A.
 
-Most of the main space and the metal shop are wired into the "High Voltage"
-closet in the main space. This door is locked to slow down modifications from
-cavalier hackers (apparently this has been an issue in the past). If a circuit
-blows, ask around and you can probably find a way in to get it reset.
+Be mindful that the second floor has only a single 20A circuit. This was done to provide as much power as possible to the metal and wood shops.
 
-## Woodshop
+If you do trip a breaker use the diagrams below to identify which circuit you tripped and the corresponding circuit breaker. Please do not enter other tenants spaces without asking permission. If you'd rather someone else deal with the power please send an email to the mailing list, contact the space manager, or post in the discord!
 
-The legacy wiring in the woodshop is prone to flipping the circuit breaker, especially when working with hard woods in the table saw or planer.
+## Circuit Diagram
 
-The woodshop and half of the garage east of the woodshop (Scott's shop) are
-inexplicably wired to a breaker that lives way over yonder in the eastern most
-garage. Scott's shop also has a new separate dedicated run. Allegedly all the
-garages will get their own dedicated circuits run as part of the ongoing
-renovation before too long.🤞
+![alt text](/src/images/electrical/circuit_diagram.jpg)
 
-In the meanwhile, gain access to the eastern most garage and reset the woodshop breaker. 
-It's actually two switches, joined together with a metal collar (see photo below).
+## Breaker Locations
 
-When the switch is blown you'll first have to push them all the way off to reset, and then back on.
+Neither of the two breakers are accessible without requesting access from other tenants. Please do not enter another tenants space without getting permission. The other tenants are aware that the circuit breakers are located in their spaces.
 
-![IMG_2610_copy](https://user-images.githubusercontent.com/217057/144557821-f49f121e-3d2a-4631-b7c4-cc4104205297.jpg)
+* Breaker 1 - Located in the pottery studio across the hall from the large ALTSpace interior doors
+* Breaker 2 - Located behind the door directly across from the main ALTSpace interior door
+
+![breaker location diagram](/src/images/electrical/breaker_diagram.jpg)
+
+
+## Circuit Breakers
+
+The individual circuit breakers are labeled as "ALTSPC - *LETTER*"
+
+### Breaker 1
+
+![breaker 1](/src/images/electrical/breaker_1.jpg)
+
+### Breaker 2
+
+![breaker 2](/src/images/electrical/breaker_2.jpg)
