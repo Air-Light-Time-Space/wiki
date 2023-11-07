@@ -37,8 +37,7 @@ ALTSpace is Federal Tax Exempt by 501(c)(7), however, we still need to file a ye
 * Cost: $60
 
 ### City of Seattle requirements
-* We don’t file anything with the city, but possibly we’re supposed to?
-* Michael was going to look into this for us, not sure what he found out
+* TBD
 
 ### Publish Annual Social Purpose Report 
 * Who: Current president
