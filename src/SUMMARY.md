@@ -20,7 +20,7 @@
 - [Onboarding New Members](onboarding.md)
 - [Liability Waivers](waivers.md)
 - [Updating this Manual](editing.md)
-
+- [Management Responsibilities](legal_management.md)
 
 ---
 
