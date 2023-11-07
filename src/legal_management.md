@@ -43,7 +43,8 @@ ALTSpace is Federal Tax Exempt by 501(c)(7), however, we still need to file a ye
 * Who: Current president
 * When: January 1st
 * What: A letter stating what activities our organization undertook in the last calendar year to achieve our "Social Purpose". [RCW 23B.25.150](https://apps.leg.wa.gov/rcw/default.aspx?cite=23b.25&full=true#23B.25.150)
-* Where: PDF published to our website
+    * [2022 Social Purpose Report](/src/files/social_purpose_reports/2022_social_purpose_report.pdf)
+    * [2023 Social Purpose Report](/src/files/social_purpose_reports/2023_social_purpose_report.pdf)
 
 ## Operating Requirements
 
