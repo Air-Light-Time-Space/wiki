@@ -19,7 +19,8 @@ Greg has been examining altspace finanancials as prepared by outgoing treasurer 
 We discuss the new board nominees, the only nominee in attendance is Greg Lucas who has been a member of the space since August 2023.
 
 Ironically we failed to take any confirming votes during the preceeding member meeting, but since the current attendees made up the majority vote of the preceeding meeting we decided to take a confirming vote for Greg since he was there.
-*(Addendum: We later tracked down Daniel, a recently-joined member who had attended the earlier meeting and since retired to operating his forge on the loading dock and he confirmed his support of Greg for a board seat.)
+
+*(Addendum: We later tracked down Daniel, a recently-joined member who had attended the earlier meeting and since retired to operating his forge on the loading dock and he confirmed his support of Greg for a board seat.)*
 
 Noah makes a motion to confirm Greg to the ALTSpace board:
 * Matthew votes yes
