@@ -230,7 +230,7 @@ This is already installed on the workstation connected to the engravers.</p>
 <h3 id="raster-printing"><a class="header" href="#raster-printing">Raster Printing</a></h3>
 <img alt="raster laser engraving goes back and forth" src="/images/laser_engraving_raster.webp" height=200 />
 <p>During <strong>raster</strong> printing, the engraver will go back and forth from top to bottom, like an old inkjet printer, and pulse the laser when it's over something that needs to be etched.</p>
-<p>This seems to be the &quot;default&quot; way of engraving with our print driver. e.g. if you &quot;File &gt; Print&quot; from Inkscape, it will always print raster.</p>
+<p>This seems to be the "default" way of engraving with our print driver. e.g. if you "File &gt; Print" from Inkscape, it will always print raster.</p>
 <h3 id="vector-printing"><a class="header" href="#vector-printing">Vector Printing</a></h3>
 <img alt="vector laser engraving follows the shape of the lines" src="/images/laser_engraving_vector.gif" height=200 />
 <p>During <strong>vector</strong> printing, the engraver will follow the shape of each line as it engraves.</p>
@@ -238,14 +238,14 @@ This is already installed on the workstation connected to the engravers.</p>
 Even if you aren't cutting all the way through material, vector lines tend to be crisper and much faster.</p>
 <p>However, vector prints can only be used to etch/cut very thin lines.
 You can't use it for broad strokes or for filling in background - raster will be used for that.</p>
-<p>Specifically, <strong>the print will only attempt to vector print line widths set between 0.001&quot; (0.025mm), 0.004&quot; (0.1mm)</strong>, everything else will be considered raster.</p>
+<p>Specifically, <strong>the print will only attempt to vector print line widths set between 0.001" (0.025mm), 0.004" (0.1mm)</strong>, everything else will be considered raster.</p>
 <img alt="moomin troll creature looking at some text that says 'Keep Clear'" src="/images/laser_engraver_moomin.jpg" height=400 />
-<p>It's OK to combine raster and vectors in a single print. In the above &quot;Keep Clear&quot; print, the letter outlines and the border rectangle were vector cut, while the letter fill and the Moomin strokes were done raster, all in a single print job.</p>
+<p>It's OK to combine raster and vectors in a single print. In the above "Keep Clear" print, the letter outlines and the border rectangle were vector cut, while the letter fill and the Moomin strokes were done raster, all in a single print job.</p>
 <h4 id="steps-for-vector-printing-in-inkscape"><a class="header" href="#steps-for-vector-printing-in-inkscape">Steps for vector printing in Inkscape</a></h4>
-<p>Ensure your vector line strokes are set to 0.001&quot; inch.</p>
+<p>Ensure your vector line strokes are set to 0.001" inch.</p>
 <p>Go to: <code>Extensions &gt;  Export &gt; Win23 Vector Print</code></p>
 <p>This will pop up the print dialog. (🐞 It seems to always default to the SpiritGX printer, I haven't figured out how to vector print to Mercury II.)</p>
-<p>Select &quot;manual colors&quot; if you'd like to specify laser parameters like power, speed, and PPI. Then adjust settings in the &quot;Pens&quot; tab. 
+<p>Select "manual colors" if you'd like to specify laser parameters like power, speed, and PPI. Then adjust settings in the "Pens" tab.
 The default settings seem pretty conservative for things like etching plywood.
 A good starting point might be Speed: 30, Power: 100, PPI: 1200, but plan to do some test prints to hone in on your settings.</p>
 <h2 id="-inkscape-alpha-crashes"><a class="header" href="#-inkscape-alpha-crashes">🐞 Inkscape alpha crashes</a></h2>
