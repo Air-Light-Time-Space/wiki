@@ -16,7 +16,7 @@ The objective of this guide: How to set up and run the Lobo CNC Mill.
 This guide assumes you have an understanding of personal safety involving machinery. This is a loud, strong, sharp, spinning machine that may move without warning. If you have questions, concerns,or are unsure about your safety, ask someone first.  
 
 To stop all mill movement, click on the Feed Hold button, on the display.
-![Feed Hold Button](./images/Lobo_CNC_Mill_FeedHoldButton.png)
+![Feed Hold Button](./Lobo_CNC_Mill_FeedHoldButton.png)
 
 To stop the router from spinning, turn off the router power.
 
