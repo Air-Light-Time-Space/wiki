@@ -1,18 +1,19 @@
 # Lobo CNC Mill
 ## General Process
-Ideally you came here from the <General CNC Instruction>.
+Ideally you came here with a general understanding of the CNC Milling process.
 
-The generic CNC milling process (for this guide) consists of:
-Capture your design in a computer program.
-Not addressed in this guide. See the <General CNC Instruction> for how to accomplish this step.
-Transform your design into CNC Tool instructions.
-Not addressed in this guide. See the <General CNC Instruction> for how to accomplish this step.
-Setup the Tool and run the Tool Instructions.
+If not, the generic CNC milling process (for this guide) consists of:  
+**A. Capture your design in a computer program.**  
+Not addressed in this guide.  
+**B. Transform your design into CNC Tool instructions.**  
+Not addressed in this guide. 
+**C. Setup the Tool and run the Tool Instructions.**  
 The objective of this guide: How to set up and run the Lobo CNC Mill. 
 
-The assumption is you are here with your G-code in a text file.
-Safety
-This guide assumes you have an understanding of personal safety involving machinery. This is a loud, strong, sharp, spinning machine that may move without warning. If you have questions, concerns,or are unsure about your safety, ask someone first.
+**The assumption is you are here with your G-code in a text file.**  
+
+## Safety
+This guide assumes you have an understanding of personal safety involving machinery. This is a loud, strong, sharp, spinning machine that may move without warning. If you have questions, concerns,or are unsure about your safety, ask someone first.  
 
 To stop all mill movement - TBD (picture)
 
