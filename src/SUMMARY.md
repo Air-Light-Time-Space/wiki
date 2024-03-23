@@ -7,6 +7,7 @@
 # Guides
 
 - [Laser Engravers](laser_engravers.md)
+- [Lobo CNC Mill](LoboCNC.md)
 
 # Maintenance
 
