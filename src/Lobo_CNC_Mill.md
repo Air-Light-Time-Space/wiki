@@ -22,3 +22,23 @@ This **WILL NOT Stop the Router Bit** from spinning.
 To **Stop the router from spinning, turn off the router power**.  
 (TBD - Add picture here)
 
+
+## General/Overview
+### Lobo CNC Parts
+1. PC  
+    1. Software  
+    2. USB Cable
+2. Lobo Mill (Replace with a real picture of Lobo)
+    1. Lobo Electronics Switch
+    2. Router
+         - Router Switch  
+         - Router Switch  
+         - Router Speed  
+         - Chuck  
+         - Bit  
+    3. Axises  
+    4. Knobs  
+    5. TBD  
+### Electrical Connections  
+### Dimensions
+X, Y, Z
