@@ -138,8 +138,25 @@ if you wish to use them. When you are ready to cut for real, repeat the instruct
 
     The lines of G-code will be displayed As they are executed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.  
     At this point, simply be watchful and be ready to stop the mill if it goes rogue. See the Safety section above for stopping things.  
+(TBD CNC Control Window - Code window picture HERE)  
 
-## Test and Troubleshoot the G-Code
+## Run the G-Code
+The next step will start the execution of the G-code.  
+    This is a quick reminder that  
+    - To **stop the mill's movement click the Feed Hold button**
+    - To **stop the Router from turning, turn the router OFF**
+Click the "Start G-code" button, to run the G-code.
+
+Most G-codes will display a window to "Turn on the Roughter". *[If you are testing with no intent to cut, leave the router turned OFF]*
+Click the OK button.
+
+Carefully watch the mill behaviour and stop it if there are problems or concerns.
+
+## G-Code Troubleshooting and Tweaking
+
+
+
+
 Space Limits
 Feed Hold, Abort Motion
 Single Step
