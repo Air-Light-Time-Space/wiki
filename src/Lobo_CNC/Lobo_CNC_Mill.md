@@ -130,14 +130,14 @@ if you wish to use them. When you are ready to cut for real, repeat the instruct
 ### Load the G-Code
 1. Click the Open G-Code Button.
    (TBD CNC Control Window - G-code window picture HERE)  
-2. Navigate to your G-code file and open it.  
-Here is where you need to be warned that the Lobo CNC software uses a **"Reduced G-code Instruction Set"**. Meaning that it only understands the "basic" G-code instructions. And unfortunately, the software will simply ignore G-code instructions that it does not recognize, with no caution to the user.  
+2. Navigate to your G-code file and open it.
 
-The best solution to this issue is to use a CAM setting for “simpler mills”. I have had good results from CAMs that can generate code for a “Generic Linux CNC”.  
-Barring that, you may need to ask for help or learn some G-code to alter your file.  
+    Here is where you need to be warned that the Lobo CNC software uses a **"Reduced G-code Instruction Set"**. Meaning that it only understands the "basic" G-code instructions. And unfortunately, the software will simply ignore G-code instructions that it does not recognize, with no caution to the user.  
+    The best solution to this issue is to use a CAM setting for “simpler mills”. I have had good results from CAMs that can generate code for a “Generic Linux CNC”.  
+    Barring that, you may need to ask for help or learn some G-code to alter your file.  
 
-The lines of G-code will be displayed As they are executed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.  
-At this point, simply be watchful and be ready to stop the mill if it goes rogue. See the Safety section above for stopping things.  
+    The lines of G-code will be displayed As they are executed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.  
+    At this point, simply be watchful and be ready to stop the mill if it goes rogue. See the Safety section above for stopping things.  
 
 ## Test and Troubleshoot the G-Code
 Space Limits
