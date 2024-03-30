@@ -119,10 +119,11 @@ if you wish to use them. When you are ready to cut for real, repeat the instruct
   Be sure to use the bit that was used for generation of your G-code. i.e., The Diameter of the cutting portion and Shape of the End (End mill, Ball, Tapered,...)
 
 ### Zero the Location
-1. Remove any cutting bit installed in the router and any material from the cutting table. With no bit and material installed, it will provide more time to react to issues and stop the mill’s motions.  
-2. As if the cutting bit and material you plan to use were installed, move the mill to the approximate origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window.  
+1. Move the mill so that the end of the bit is located at the the Origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window.  
+   [If no bit or material are installed, locate the mill approxamately, as if they were installed.]  
+   [Alternately, locate the end of the bit much higher than normal - so that no G-code Z movement can contact the table/material]  
 (TBD CNC Control Window - X,Y,Z buttons)  
-3. Zero the X, Y, & Z coordinates by clicking the "Set All" button
+2. Zero the X, Y, & Z coordinates by clicking the "Set All" button.  
 (TBD CNC Control Window Here)  
 4. Advance Setup: You can also zero individual axes and/or ender specific offset numbers if you can't start the bit at the origin.
 
