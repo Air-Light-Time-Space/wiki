@@ -80,7 +80,7 @@ See the units discussion in the Inputs/G-code section above.
 
 ### Servo Control Power  
 When the software prompts you to, turn on the Servo Control Power.  
-![Feed Hold Button](./RouterOnOffSwitch.png)
+![Feed Hold Button](./ServoControlPowerSwitch.png)
  
 ### Homing  
 Next, the software will ask: Do you want to execute the homing process?  
