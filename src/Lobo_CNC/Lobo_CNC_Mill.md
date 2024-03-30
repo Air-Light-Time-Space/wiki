@@ -93,7 +93,7 @@ The Lobo Mill knows where it is by counting the rotations of the threaded shafts
 
 ### Done Homing  
 Once the software is done homing, the CNC Control Window will be displayed:  
-(TBD CNC Control Window Here)  
+(TBD CNC Control Window picture HERE)  
 
 
 ## Mill Setup  
@@ -105,37 +105,39 @@ It is recommended to first run at least the first portion of your G-code with no
 Even after you have some confidence in the G-code, it is recommended that you try the first cutting on ##Scrap Material First##.
 
 The following is the setup instructions for using the mill. There are additional  
-[Suggestions for Testing Your Setup]  
+**[Suggestions for Testing Your Setup]**   
 if you wish to use them. When you are ready to cut for real, repeat the instructions without those suggestions. 
 
 ### Setup the Cutting Bit and Material  
-1. Install your material to be milled. [For Testing, first do not install any material. Second use scrap material to confirm results.]  
+1. Install your material to be milled. *[For Testing, first do not install any material. Second use scrap material to confirm results.]*  
    How to attach your materiel to the mill table will depend on the type of milling you are performing and is beyond the scope of this guide.  
-   In general:
-- Your material must be secure enough to never move while being milled. Large portions (larger than chips) being removed must not be allowed to come loose.
-- If held down by clamps, they must not be located where the bit will collide with them.
-- DO NOT mill into the mill bed. If your material will be milled all the way through, sufficient sacrificial material (spoiler board) must be used underneath.
-2. Install the cutting bit into the Router. [For Testing, Leave the Bit Uninstalled]
+   In general:  
+- Your material must be secure enough to never move while being milled. Large portions (larger than chips) being removed must not be allowed to come loose.  
+- If held down by clamps, they must not be located where the bit will collide with them.  
+- DO NOT mill into the mill bed. If your material will be milled all the way through, sufficient sacrificial material (spoiler board) must be used underneath.  
+2. Install the cutting bit into the Router. *[For Testing, Leave the Bit Uninstalled]*  
   Be sure to use the bit that was used for generation of your G-code. i.e., The Diameter of the cutting portion and Shape of the End (End mill, Ball, Tapered,...)
 
-### Zero the Location
+### Zero the Mill Location  
 1. Move the mill so that the end of the bit is located at the the Origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window.  
-   [If no bit or material are installed, locate the mill approxamately, as if they were installed.]  
-   [Alternately, locate the end of the bit much higher than normal - so that no G-code Z movement can contact the table/material]  
-(TBD CNC Control Window - X,Y,Z buttons)  
+   *[If no bit or material are installed, locate the mill approxamately, as if they were installed.]*  
+   *[Alternately, locate the end of the bit much higher than normal - so that no G-code Z movement can contact the table/material]*  
+(TBD CNC Control Window - X,Y,Z buttons picture HERE)  
 2. Zero the X, Y, & Z coordinates by clicking the "Set All" button.  
-(TBD CNC Control Window Here)  
-4. Advance Setup: You can also zero individual axes and/or ender specific offset numbers if you can't start the bit at the origin.
+(TBD CNC Control Window - Coordinate/buttons picture HERE)  
+3. Advance Setup: You can also zero individual axes and/or ender specific offset numbers if you can't start the bit at the origin.
 
 ### Load the G-Code
-1. Click the Open G-Code Button.  
-3. Navigate to your G-code file and open it.  
+1. Click the Open G-Code Button.
+   (TBD CNC Control Window - G-code window picture HERE)  
+2. Navigate to your G-code file and open it.  
+Here is where you need to be warned that the Lobo CNC software uses a **"Reduced G-code Instruction Set"**. Meaning that it only understands the "basic" G-code instructions. And unfortunately, the software will simply ignore G-code instructions that it does not recognize, with no caution to the user.  
 
-Here is where you need to be warned that the Lobo CNC software used a "reduced G-code Instruction Set". Meaning that it only understands the "basic" G-code instructions. And unfortunately, the mill will simply ignore instructions that it does not recognize, with no caution to the user.  
+The best solution to this issue is to use a CAM setting for “simpler mills”. I have had good results from CAMs that can generate code for a “Generic Linux CNC”.  
+Barring that, you may need to ask for help or learn some G-code to alter your file.  
 
-The best solution to this issue is to use a CAM setting for “simpler mills”. I have had good results from CAMs that can generate code for a “Generic Linux CNC”. Baring that, you may need to ask for help or learn some G-code to alter your file.
-
-At this point, you can watch for TBD - (Stop/Pause??) and be ready to stop the mill if it goes rogue. See the Safety section above for stopping things.  
+The lines of G-code will be displayed As they are executed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.  
+At this point, simply be watchful and be ready to stop the mill if it goes rogue. See the Safety section above for stopping things.  
 
 ## Test and Troubleshoot the G-Code
 Space Limits
