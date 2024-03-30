@@ -89,13 +89,23 @@ With rare exceptions, answer yes to this.
 The Lobo Mill knows where it is by counting the rotations of the threaded shafts. Homing is the process where it moves to the stops of each axis (a known location)  and then zeros that count. Thus, ensuring that the count is correct.  
 
 ### Done Homing  
-Once the software is done homing, the CNC Control Window will be displayed:
-(TBD CNC Control Window Here)
+Once the software is done homing, the CNC Control Window will be displayed:  
+(TBD CNC Control Window Here)  
 
-## Setup and Test the G-Code
-It is rare to get your expected results from the first run of the G-code. There will typically be an iterative process of “dialing it in” needed. What we are doing here is running the G-code and watching for the mill exceeding the bed limits of your (to be installed) material or crashing the cutting bit into something.  
+## Mill Setup  
+### Test Options
+It is rare to get your expected results from the first run of the G-code.  There will typically be an iterative process of “dialing it in” needed. 
 
-### Preliminary Zero location
+It is recommended to first run at least the first portion of your G-code with no bit installed, no material installed, and with the router turned off. This will allow you to watching for the mill exceeding the bed limits of your material or crashing the cutting bit into something.  
+
+Even after you have some confidence in the G-code, it is recommended that you try the first cutting on ##Scrap Material First##.
+
+The following is the setup instructions for using the mill. There are additional [Suggestions for Testing Your Setup] if you wish to use them. When you are ready to cut for real, repeat the instructions without those suggestions. 
+
+### Setup the Cutting Bit and Material  
+1. Install the cutting bit into the Roughter. A
+
+### Zero the Location
 1. Remove any cutting bit installed in the router and any material from the cutting table. With no bit and material installed, it will provide more time to react to issues and stop the mill’s motions.  
 2. As if the cutting bit and material you plan to use were installed, move the mill to the approximate origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window.  
 (TBD CNC Control Window - X,Y,Z buttons)  
