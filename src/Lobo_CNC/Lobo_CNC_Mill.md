@@ -80,7 +80,8 @@ See the units discussion in the Inputs/G-code section above.
 
 ### Servo Control Power  
 When the software prompts you to, turn on the Servo Control Power.  
-(TBD - Picture of mill with arrow pointing to switch)  
+![Feed Hold Button](./RouterOnOffSwitch.png)
+ 
 ### Homing  
 Next, the software will ask: Do you want to execute the homing process?  
 With rare exceptions, answer yes to this.  
