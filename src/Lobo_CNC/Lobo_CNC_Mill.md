@@ -20,8 +20,7 @@ This **WILL NOT Stop the Router Bit** from spinning.
 ![Feed Hold Button](./Lobo_CNC_Mill_FeedHoldButton.png)
 
 To **Stop the router from spinning, turn off the router power**.  
-(TBD - Add picture here)
-
+![Feed Hold Button](./RouterOnOffSwitch.png)
 
 ## General/Overview
 ### Lobo CNC Parts
