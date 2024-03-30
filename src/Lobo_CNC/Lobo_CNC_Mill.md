@@ -88,13 +88,20 @@ With rare exceptions, answer yes to this.
 
 The Lobo Mill knows where it is by counting the rotations of the threaded shafts. Homing is the process where it moves to the stops of each axis (a known location)  and then zeros that count. Thus, ensuring that the count is correct.  
 
+### Done Homing  
+Once the software is done homing, the CNC Control Window will be displayed:
+(TBD CNC Control Window Here)
+
 ## Setup and Test the G-Code
 It is rare to get your expected results from the first run of the G-code. There will typically be an iterative process of “dialing it in” needed. What we are doing here is running the G-code and watching for the mill exceeding the bed limits of your (to be installed) material or crashing the cutting bit into something.  
+
 ### Preliminary Zero location
 1. Remove any cutting bit installed in the router and any material from the cutting table. With no bit and material installed, it will provide more time to react to issues and stop the mill’s motions.  
-2. As if the cutting bit and material you plan to use were installed, movie the mill to the approximate origin of the model.  
-   TBD - Picture of setup with ghosted bit & material  
-4. Zero the X, Y, & Z coordinates by clicking the "Set All" button
+2. As if the cutting bit and material you plan to use were installed, move the mill to the approximate origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window.  
+(TBD CNC Control Window - X,Y,Z buttons)  
+3. Zero the X, Y, & Z coordinates by clicking the "Set All" button
+(TBD CNC Control Window Here)  
+4. Advance Setup: You can also zero individual axes and/or ender specific offset numbers if you can't start the bit at the origin.
 
 ### Load the G-Code
 1. Click the Open G-Code Button.  
