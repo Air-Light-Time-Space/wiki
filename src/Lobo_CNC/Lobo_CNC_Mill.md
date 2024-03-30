@@ -104,15 +104,19 @@ It is recommended to first run at least the first portion of your G-code with no
 
 Even after you have some confidence in the G-code, it is recommended that you try the first cutting on ##Scrap Material First##.
 
-The following is the setup instructions for using the mill. There are additional [Suggestions for Testing Your Setup] if you wish to use them. When you are ready to cut for real, repeat the instructions without those suggestions. 
+The following is the setup instructions for using the mill. There are additional  
+[Suggestions for Testing Your Setup]  
+if you wish to use them. When you are ready to cut for real, repeat the instructions without those suggestions. 
 
 ### Setup the Cutting Bit and Material  
-1. Install your material to be milled. [For Testing, first do not install any material. Second use scrap material to confirm results.]
-   How to attach your materiel to the mill table will depend on the type of milling you are performing and is beyond the scope of this guide. In general:
-Your material must be secure enough to never move while being milled. Large portions (larger than chips) being removed must not be allowed to come loose.
-If held down by clamps, they must not be located where the bit will collide with them.
-DO NOT mill into the mill bed. If your material will be milled all the way through, sufficient sacrificial material (spoiler board) must be used underneath.
-3. Install the cutting bit into the Router. [For Testing, Leave the Bit Uninstalled]
+1. Install your material to be milled. [For Testing, first do not install any material. Second use scrap material to confirm results.]  
+   How to attach your materiel to the mill table will depend on the type of milling you are performing and is beyond the scope of this guide.  
+   In general:
+- Your material must be secure enough to never move while being milled. Large portions (larger than chips) being removed must not be allowed to come loose.
+- If held down by clamps, they must not be located where the bit will collide with them.
+- DO NOT mill into the mill bed. If your material will be milled all the way through, sufficient sacrificial material (spoiler board) must be used underneath.
+2. Install the cutting bit into the Router. [For Testing, Leave the Bit Uninstalled]
+  Be sure to use the bit that was used for generation of your G-code. i.e., The Diameter of the cutting portion and Shape of the End (End mill, Ball, Tapered,...)
 
 ### Zero the Location
 1. Remove any cutting bit installed in the router and any material from the cutting table. With no bit and material installed, it will provide more time to react to issues and stop the mill’s motions.  
