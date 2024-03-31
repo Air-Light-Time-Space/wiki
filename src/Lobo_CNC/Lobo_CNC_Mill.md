@@ -140,35 +140,36 @@ if you wish to use them. When you are ready to cut for real, repeat the instruct
     At this point, simply be watchful and be ready to stop the mill if it goes rogue. See the Safety section above for stopping things.  
 (TBD CNC Control Window - Code window picture HERE)  
 
-## Run the G-Code
+# Run the G-Code
 The next step will start the execution of the G-code.  
     This is a quick reminder that  
-    - To **stop the mill's movement click the Feed Hold button**
-    - To **stop the Router from turning, turn the router OFF**
+    - To **stop the mill's movement click the Feed Hold button**  
+    - To **stop the Router from turning, turn the router OFF**  
+    
 Click the "Start G-code" button, to run the G-code.
 
-Most G-codes will display a window to "Turn on the Roughter". *[If you are testing with no intent to cut, leave the router turned OFF]*
+Most G-codes will display a window to "Turn on the Router". *[If you are testing with no intent to cut, leave the router turned OFF]*  
 Click the OK button.
 
-Carefully watch the mill behaviour and stop it if there are problems or concerns.
+**Carefully watch the mill behavior and stop it if there are problems or concerns.**
+
+When you are done, simply click the Exit button on the display and turn off the router.
+
 
 ## G-Code Troubleshooting and Tweaking
+As you become more experienced, there are more features available from the Lobo CNC software. e.g.,  
+- Pausing/Resuming the G-code  
+- Single stepping through the G-code
+- Adjusting the movement speed while running
+- Executing single G-code commands manually
 
+# More Lobo CNC Info
+You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here, if you dare.  
 
+Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.
 
+# More CNC Info In General
+My name is Jim Schultz, and I started this guide. I have zero training in milling or in CNC, and all of my knowledge is from reading, asking questions, or trial & error. If you want to risk my help with this mill, I would be happy to try. You can find me on the AltSpace Discord.
 
-Space Limits
-Feed Hold, Abort Motion
-Single Step
-
-
-Install Your Material
-Hardness, Bit, Rotating speed, movement speed
-TEST Your Code On SCRAP!!!
-Install the Cutting Bit
-Material Hardness, Rotating speed, movement speed
-TEST Your Code On SCRAP!!!
-Execution
-Run the G-Code
-Shutdown
-
+Other Contributors and/or Milling/CNC advisors:
+<name here>
