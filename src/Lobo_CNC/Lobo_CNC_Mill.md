@@ -121,39 +121,35 @@ if you wish to use them. When you are ready to cut for real, repeat the instruct
 ### Zero the Mill Location  
 1. Move the mill so that the end of the bit is located at the the Origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window.  
    *[If no bit or material are installed, locate the mill approxamately, as if they were installed.]*  
-   *[Alternately, locate the end of the bit much higher than normal - so that no G-code Z movement can contact the table/material]*  
+   *[Alternately, locate the end of the bit much higher than normal - so that no G-code Z movement can NOT contact the table/material]*  
 (TBD CNC Control Window - X,Y,Z buttons picture HERE)  
 2. Zero the X, Y, & Z coordinates by clicking the "Set All" button.  
 (TBD CNC Control Window - Coordinate/buttons picture HERE)  
-3. Advance Setup: You can also zero individual axes and/or ender specific offset numbers if you can't start the bit at the origin.
+3. Advance Setup: You can also zero individual axes and/or enter specific offset numbers if you can't start the bit at the origin.
 
 ### Load the G-Code
-1. Click the Open G-Code Button.
+1. Click the Open G-Code Button.  
    (TBD CNC Control Window - G-code window picture HERE)  
 2. Navigate to your G-code file and open it.
 
-    Here is where you need to be warned that the Lobo CNC software uses a **"Reduced G-code Instruction Set"**. Meaning that it only understands the "basic" G-code instructions. And unfortunately, the software will simply ignore G-code instructions that it does not recognize, with no caution to the user.  
+    Here is where you need to be warned that the Lobo CNC software uses a **"Reduced G-code Instruction Set"**. Meaning that it only understands "basic" G-code instructions. And unfortunately, the software will simply ignore G-code instructions that it does not recognize, with no caution to the user.  
     The best solution to this issue is to use a CAM setting for “simpler mills”. I have had good results from CAMs that can generate code for a “Generic Linux CNC”.  
     Barring that, you may need to ask for help or learn some G-code to alter your file.  
 
     The lines of G-code will be displayed As they are executed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.  
     At this point, simply be watchful and be ready to stop the mill if it goes rogue. See the Safety section above for stopping things.  
-(TBD CNC Control Window - Code window picture HERE)  
 
 # Run the G-Code
 The next step will start the execution of the G-code.  
     This is a quick reminder that  
-    - To **stop the mill's movement click the Feed Hold button**  
+    - To **stop the mill's movement** click the **Feed Hold button**  
     - To **stop the Router from turning, turn the router OFF**  
     
-Click the "Start G-code" button, to run the G-code.
-
-Most G-codes will display a window to "Turn on the Router". *[If you are testing with no intent to cut, leave the router turned OFF]*  
-Click the OK button.
-
-**Carefully watch the mill behavior and stop it if there are problems or concerns.**
-
-When you are done, simply click the Exit button on the display and turn off the router.
+1. Click the "Start G-code" button, to run the G-code.  
+2. Most G-codes will display a window to "Turn on the Router". *[If you are testing with no intent to cut, leave the router turned OFF]*
+3. Click the OK button.
+4. **Carefully watch the mill behavior and stop it if there are problems or concerns.**
+5. When you are done, simply click the Exit button on the display and turn off the router.
 
 
 ## G-Code Troubleshooting and Tweaking
@@ -164,7 +160,7 @@ As you become more experienced, there are more features available from the Lobo 
 - Executing single G-code commands manually
 
 # More Lobo CNC Info
-You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here, if you dare.  
+You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here ![HERE](./pscnc.pdf), if you dare.  
 
 Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.
 
