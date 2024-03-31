@@ -160,7 +160,7 @@ As you become more experienced, there are more features available from the Lobo 
 - Executing single G-code commands manually
 
 # More Lobo CNC Info
-You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here ![HERE](./pscnc.pdf), if you dare.  
+You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here [HERE](./pscnc.pdf), if you dare.  
 
 Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.
 
