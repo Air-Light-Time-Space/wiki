@@ -165,7 +165,7 @@ You can read the instructions that came with the Lobo CNC Mill by clicking on th
 Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.
 
 # More CNC Info In General
-My name is Jim Schultz, and I started this guide. I have zero training in milling or in CNC, and all of my knowledge is from reading, asking questions, or trial & error. If you want to risk my help with this mill, I would be happy to try. You can find me on the AltSpace Discord.
+My name is Jim Schultz, and I started this guide. I have zero training in milling or in CNC, and all of my knowledge is from reading, asking questions, or trial & error. If you want to risk my help with this mill, I would be happy to try. You can find me on the [AltSpace Discord](https://discord.com/channels/834243114339401759/834243114339401762).
 
 Other Contributors and/or Milling/CNC advisors:
 <name here>
