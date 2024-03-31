@@ -23,6 +23,9 @@ To **Stop the router from spinning, turn off the router power**.
 ![Feed Hold Button](./RouterOnOffSwitch.png)
 
 ## General/Overview
+![Feed Hold Button](./SwitchesAndSpeed.png)
+
+
 ### Lobo CNC Parts
 1. PC  
     1. Software  
