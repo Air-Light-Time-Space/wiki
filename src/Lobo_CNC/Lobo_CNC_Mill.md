@@ -18,31 +18,28 @@ This guide assumes you have an understanding of personal safety involving machin
 To **STOP all mill movement**, click on the Feed Hold button, on the display.  
 This **WILL NOT Stop the Router Bit** from spinning.  
 ![Feed Hold Button](./Lobo_CNC_Mill_FeedHoldButton.png)
-
+  
 To **Stop the router from spinning, turn off the router power**.  
-![Feed Hold Button](./RouterOnOffSwitch.png)
-
-## General/Overview
-### Electronics Switch
-![Feed Hold Button](./SwitchesAndSpeed.png)
-### Knobs
-When the mill is not performing any automated activities , the physical position (X, Y, & Z) can be adjusted using the three control knobs.
-### Axises  
-(TBD  Picture with axes labeled)  
-The mill uses the normal Cartesian Coordinate system (X, Y, & Z). However, because the workpiece moves relative to the cutting tool, the axes directions (+/-) can be confusing.  
-- Movement in the Z direction is the same:
-  - Increasing Z moved the cutting tool Up
-  - Decreasing Z moves the cutting tool Down
-- Movement in the X direction is counter intuitive:
-  - Increasing X moved the **workpiece left** relative to you (intuitibly -X), but the cutting tool moves to the **right relative the workpiece** (+X).
-  - Decreasing X moves the **workpiece right** relative to you (intuitivly +X), but the cutting tool moves to the **left relative the workpiece** (-X).
-- Movement in the Y direction is also counter intuitive:
-  - Increasing Y moved the **workpiece forward** relative to you (intuitibly -Y), but the cutting tool moves **backward relative the workpiece**(+Y).
-  - Decreasing Y moves the **workpiece backward** relative to you (intuitibly +Y), but the cutting tool moves **forward relative the workpiece**(-Y).
- 
+![Feed Hold Button](./RouterOnOffSwitch.png)  
+  
+## General/Overview  
+### Electronics Switch  
+![Feed Hold Button](./SwitchesAndSpeed.png)  
+### Knobs  
+When the mill is not performing any automated activities , the physical position (X, Y, & Z) can be adjusted using the three control knobs.  
+### Axes  
+The mill uses the normal Cartesian Coordinate system (X, Y, & Z). However, because the workpiece moves relative to the cutting tool, the movement directions (+/-) can be confusing.  
+- Movement in the Z direction is the same:  
+  - Increasing Z moved the cutting tool Up  
+  - Decreasing Z moves the cutting tool Down  
+- Movement in the X direction is counter intuitive:  
+  - Increasing X moved the **workpiece left** relative to you (intuitively -X), but the cutting tool moves to the **right relative the workpiece** (+X).  
+  - Decreasing X moves the **workpiece right** relative to you (intuitivly +X), but the cutting tool moves to the **left relative the workpiece** (-X).  
+- Movement in the Y direction is also counter intuitive:  
+  - Increasing Y moved the **workpiece forward** relative to you (intuitively -Y), but the cutting tool moves **backward relative the workpiece**(+Y).  
+  - Decreasing Y moves the **workpiece backward** relative to you (intuitively +Y), but the cutting tool moves **forward relative the workpiece**(-Y).  
 ### Bed Dimensions
 TBD - X, Y, Z dimentions here
-
 
 ## Inputs to this process
 ### G-code
