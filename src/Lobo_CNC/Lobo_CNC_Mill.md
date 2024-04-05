@@ -123,20 +123,17 @@ if you wish to use them. When you are ready to cut for real, repeat the instruct
 2. Zero the X, Y, & Z coordinates by clicking the "Set All" button.  
 
 3. Advance Setup:
-     - You can zero individual axes by clicking the "Set X/Y/Z Origin" buttonand
-     - You can enter specific offset numbers by clicking in the number windows.
+     - You can zero individual axes by clicking the "Set X/Y/Z Origin" button  
+     - You can enter specific offset numbers by clicking in the number windows  
 
 ### Load the G-Code
 1. Click the Open G-Code Button.  
-   (TBD CNC Control Window - G-code window picture HERE)  
 2. Navigate to your G-code file and open it.
 
-    Here is where you need to be warned that the Lobo CNC software uses a **"Reduced G-code Instruction Set"**. Meaning that it only understands "basic" G-code instructions. And unfortunately, the software will simply ignore G-code instructions that it does not recognize, with no caution to the user.  
-    The best solution to this issue is to use a CAM setting for “simpler mills”. I have had good results from CAMs that can generate code for a “Generic Linux CNC”.  
-    Barring that, you may need to ask for help or learn some G-code to alter your file.  
-
-    The lines of G-code will be displayed As they are executed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.  
-    At this point, simply be watchful and be ready to stop the mill if it goes rogue. See the Safety section above for stopping things.  
+    Here is where you need to be warned that the Lobo CNC software uses a **"Reduced G-code Instruction Set"**. Meaning that it only understands "basic" G-code instructions. And unfortunately, the software will simply ignore G-code instructions that it does not recognize, with no caution to the user. The best solution to this issue is to use a CAM output setting for “simpler mills”. I have had good results from CAMs that can generate code for a “Generic Linux CNC”. Barring that, you may need to ask for help or learn some G-code to alter your file.
+  
+As the G-code runs, the lines being executed will be displayed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.  
+    At this point, be watchful and ready to stop the mill if it goes rogue. See the [Safety](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#safety) section above for stopping things.  
 
 # Run the G-Code
 The next step will start the execution of the G-code.  
