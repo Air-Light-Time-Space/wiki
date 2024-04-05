@@ -79,6 +79,7 @@ The Lobo CNC Mill is already connected to a dedicated PC with the appropriate so
 There are two Icons on the PC desktop:  
 - LoboCNC - Inches  
 - LoboCNC - Millimeters  
+
 See the units discussion in the [Inputs/G-code](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#g-code) section.
 
 Double-click the Icon for the units you wish to use.  
