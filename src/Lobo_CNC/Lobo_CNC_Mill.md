@@ -33,16 +33,16 @@ When the mill is not performing any automated activities , the physical position
 The mill uses the normal Cartesian Coordinate system (X, Y, & Z). However, because the workpiece moves in the X-Y planes relative to the cutting tool, the movement directions (+/-) can be counter intuitive. For example, when the X position is increased, the bed/workpiece will move to the left and NOT the right (the direction of increasing X). But from the bed/workpiece perspective, increasing X DOES move the the cutting tool to the right (the direction of increasing X) because the bed/workpiece is moving left and the cutting tool is remaining still.
 
 ### Bed Dimensions
-TBD - X, Y, Z dimentions here
+TBD - X, Y, Z dimentions here  
 Imperial maximum dimentions:
   - X:  
   - Y:  
-  - Z:  
+  - Z:  (assumes zero tool length)  
 
 Metric maximum dimentions:  
   - X:  
   - Y:  
-  - Z:  
+  - Z:  (assumes zero tool length)  
 
 ## Inputs to this process
 ### G-code
