@@ -25,8 +25,10 @@ To **Stop the router from spinning, turn off the router power**.
 ## General/Overview  
 ### Electronics Switch  
 ![Feed Hold Button](./SwitchesAndSpeed.png)  
+
 ### Knobs  
 When the mill is not performing any automated activities , the physical position (X, Y, & Z) can be adjusted using the three control knobs.  
+
 ### Axes  
 The mill uses the normal Cartesian Coordinate system (X, Y, & Z). However, because the workpiece moves in the X-Y planes relative to the cutting tool, the movement directions (+/-) can be counter intuitive. For example, when the X position is increased, the bed/workpiece will move to the left and NOT the right (the direction of increasing X). But from the bed/workpiece perspective, increasing X DOES move the the cutting tool to the right (the direction of increasing X) because the bed/workpiece is moving left and the cutting tool is remaining still.
 
@@ -37,12 +39,14 @@ TBD - X, Y, Z dimentions here
 ### G-code
 G-code is a text file with step-by-step instructions for the mill. This typically comes from the CAM process.
 
-TBD- Maybe include a simple file to use? Or have a step-by-step example, with file, in the appendix?
+TBD- Maybe include a simple file to use? Or have a step-by-step example, with file, in the appendix?  
 
-You will need to know the following about your G-code:  
-- **The units** - When the G-code was generated, either Metric or Imperial units were used. Some G-code generators will state the units used. If the file starts with “G20”, then the units are in inches. If it starts with “G21”, then the units are in millimeters.  
-- **The origin of the model** - When the G-code was generated, it was relative to the origin, X=0, Y=0, Z=0. All motions and dimensions in the G-code are relative to this location. This is typically one of the top corners of the material, but may be anywhere convenient.  
-- **The Bit Size & Shape**. See below under Cutting Bit.
+**You will need to know the following about your G-code:**  
+- **The units** - When the G-code was generated, either Metric or Imperial units were used. Some G-code generators will state the units used. If the file starts with “G20”, then the units are in inches. If it starts with “G21”, then the units are in millimeters. The Lobo CNC Software is NOT smart enough to read this and adjust accordinly. You must run the correct program based on this information. See [Imperial (Inches) or Metric (Millimeters)](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#imperial-inches-or-metric-millimeters).  
+
+- **The origin of the model** - When the G-code was generated, it was relative to the origin, X=0, Y=0, Z=0. All motions and dimensions in the G-code are relative to this location. This is typically one of the top corners of the material, but may be anywhere convenient.
+
+- **The Bit Size & Shape**. See below under [Cutting Bit](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#cutting-bit).  
   
 ### Material to Cut  
 This is the stuff you want to mill your design from or into. 
@@ -54,7 +58,7 @@ The material is typically foam, wood, or plastic. The Lobo Mill will struggle to
 - **Bite Type** - The bit must be appropriate for the material being cut. The wrong type can burn or melt your material or be quickly dulled by the material.  
 - **Bit Size & Shape** - The G-code was generated based on this bit and if a different size or shape is used, the results will be different than intended. For example if a larger diameter mill is used, more material will be removed than specified.  
 
-The use of multiple bits is not covered in this guide. The Lobo CNC interpreter does support multiple tools, but there is not tool changer and the changes must occur manually.  
+The use of multiple bits is not covered in this guide. The Lobo CNC interpreter does support multiple tools, but there is no tool changer and the changes must occur manually.  
 
 
 ## Assumptions  
