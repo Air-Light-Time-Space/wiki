@@ -72,23 +72,26 @@ The Lobo CNC Mill is already connected to a dedicated PC with the appropriate so
 There are two Icons on the PC desktop:  
 - LoboCNC - Inches  
 - LoboCNC - Millimeters  
+See the units discussion in the [Inputs/G-code](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#g-code) section.
+
 Double-click the Icon for the units you wish to use.  
-See the units discussion in the Inputs/G-code section above.  
 
 ### Servo Control Power  
 When the software prompts you to, turn on the Servo Control Power.  
+(No Worries if it is already on.)  
+
 ![Feed Hold Button](./ServoControlPowerSwitch.png)
  
 ### Homing  
 Next, the software will ask: Do you want to execute the homing process?  
-With rare exceptions, answer yes to this.  
+With rare exceptions, answer **yes** to this.  
 
 The Lobo Mill knows where it is by counting the rotations of the threaded shafts. Homing is the process where it moves to the stops of each axis (a known location)  and then zeros that count. Thus, ensuring that the count is correct.  
 
 ### Done Homing  
 Once the software is done homing, the CNC Control Window will be displayed:  
 (TBD CNC Control Window picture HERE)  
-
+![Software Control Panel](./SoftwareControlPanel.png)
 
 ## Mill Setup  
 ### Test Options
