@@ -13,7 +13,7 @@ The ==objective of this guide==: How to set up and run the Lobo CNC Mill.
 **The assumption is you are here with your G-code in a text file.**  
 
 ## Safety
-This guide assumes you have an understanding of personal safety involving machinery. This is a strong, sharp, spinning machine that may move without warning. It can be load and throw shrapnel at any time. If you have questions, concerns, or are unsure about your safety, ask someone first.  
+This guide assumes you have an understanding of personal safety involving machinery. This is a strong, sharp, spinning machine that may move without warning. It can be loud and throw shrapnel at any time. If you have questions, concerns, or are unsure about your safety, ask someone first.  
 
 To **STOP all mill movement**, click on the Feed Hold button, on the display.  
 This **WILL NOT Stop the Router Bit** from spinning.  
@@ -34,12 +34,19 @@ The mill uses the normal Cartesian Coordinate system (X, Y, & Z). However, becau
 
 ### Bed Dimensions
 TBD - X, Y, Z dimentions here
+Imperial maximum dimentions:
+  - X:  
+  - Y:  
+  - Z:  
+
+Metric maximum dimentions:  
+  - X:  
+  - Y:  
+  - Z:  
 
 ## Inputs to this process
 ### G-code
-G-code is a text file with step-by-step instructions for the mill. This typically comes from the CAM process.
-
-TBD- Maybe include a simple file to use? Or have a step-by-step example, with file, in the appendix?  
+G-code is a text file with step-by-step instructions for the mill. This typically comes from the CAM process.  
 
 **You will need to know the following about your G-code:**  
 - **The units** - When the G-code was generated, either Metric or Imperial units were used. Some G-code generators will state the units used. If the file starts with “G20”, then the units are in inches. If it starts with “G21”, then the units are in millimeters. The Lobo CNC Software is NOT smart enough to read this and adjust accordinly. You must run the correct program based on this information. See [Imperial (Inches) or Metric (Millimeters)](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#imperial-inches-or-metric-millimeters).  
@@ -136,8 +143,7 @@ As the G-code runs, the lines being executed will be displayed. The highlighted 
     At this point, be watchful and ready to stop the mill if it goes rogue. See the [Safety](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#safety) section above for stopping things.  
 
 # Run the G-Code
-The next step will start the execution of the G-code.  
-    This is a quick reminder that  
+The next step will start the execution of the G-code. This is a quick reminder that:   
     - To **stop the mill's movement** click the **Feed Hold button**  
     - To **stop the Router from turning, turn the router OFF**  
     
@@ -145,7 +151,7 @@ The next step will start the execution of the G-code.
 2. Most G-codes will display a window to "Turn on the Router". *[If you are testing with no intent to cut, leave the router turned OFF]*
 3. Click the OK button.
 4. **Carefully watch the mill behavior and stop it if there are problems or concerns.**
-5. When you are done, simply click the Exit button on the display and turn off the router.
+5. When done, click the Exit button on the display and turn off the router.
 
 
 ## G-Code Troubleshooting and Tweaking
