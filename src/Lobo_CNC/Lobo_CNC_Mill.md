@@ -90,16 +90,15 @@ The Lobo Mill knows where it is by counting the rotations of the threaded shafts
 
 ### Done Homing  
 Once the software is done homing, the CNC Control Window will be displayed:  
-(TBD CNC Control Window picture HERE)  
 ![Software Control Panel](./SoftwareControlPanel.png)
 
 ## Mill Setup  
 ### Test Options
 It is rare to get your expected results from the first run of the G-code.  There will typically be an iterative process of “dialing it in” needed. 
 
-It is recommended to first run at least the first portion of your G-code with no bit installed, no material installed, and with the router turned off. This will allow you to watching for the mill exceeding the bed limits of your material or crashing the cutting bit into something.  
+It is recommended to test at least the first portion of your G-code with no bit installed, no material installed, and with the router turned off. This will allow you to watching for the mill exceeding the bed limits of your material or crashing the cutting bit into something.  
 
-Even after you have some confidence in the G-code, it is recommended that you try the first cutting on ##Scrap Material First##.
+Even after you have some confidence in the G-code, it is recommended that you try the first cutting on **Scrap Material First**.
 
 The following is the setup instructions for using the mill. There are additional  
 **[Suggestions for Testing Your Setup]**   
@@ -109,20 +108,23 @@ if you wish to use them. When you are ready to cut for real, repeat the instruct
 1. Install your material to be milled. *[For Testing, first do not install any material. Second use scrap material to confirm results.]*  
    How to attach your materiel to the mill table will depend on the type of milling you are performing and is beyond the scope of this guide.  
    In general:  
-- Your material must be secure enough to never move while being milled. Large portions (larger than chips) being removed must not be allowed to come loose.  
-- If held down by clamps, they must not be located where the bit will collide with them.  
-- DO NOT mill into the mill bed. If your material will be milled all the way through, sufficient sacrificial material (spoiler board) must be used underneath.  
+ - Your material must be secure enough to never move while being milled. Large portions (larger than chips) being removed must not be allowed to come loose.  
+ - If held down by clamps, they must not be located where the bit will collide with them.  
+ - DO NOT mill into the mill bed. If your material will be milled all the way through, sufficient sacrificial material (spoiler board) must be used underneath.  
 2. Install the cutting bit into the Router. *[For Testing, Leave the Bit Uninstalled]*  
-  Be sure to use the bit that was used for generation of your G-code. i.e., The Diameter of the cutting portion and Shape of the End (End mill, Ball, Tapered,...)
+ - Be sure to use the bit that was used for generation of your G-code. i.e., The Diameter of the cutting portion and Shape of the End (End mill, Ball, Tapered,...)
+ - Be sure to use the bit intended to but your material. The wrong type can burn or melt your material or be quickly dulled by the material.  
 
 ### Zero the Mill Location  
-1. Move the mill so that the end of the bit is located at the the Origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window.  
+1. Move the mill so that the end of the bit is located at the the Origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window. (Or the CNC knobs, if need be)  
    *[If no bit or material are installed, locate the mill approxamately, as if they were installed.]*  
-   *[Alternately, locate the end of the bit much higher than normal - so that no G-code Z movement can NOT contact the table/material]*  
-(TBD CNC Control Window - X,Y,Z buttons picture HERE)  
+   *[Alternately, locate the end of the bit much higher than normal - so that all G-code Z movements will NOT contact the table/material]*  
+
 2. Zero the X, Y, & Z coordinates by clicking the "Set All" button.  
-(TBD CNC Control Window - Coordinate/buttons picture HERE)  
-3. Advance Setup: You can also zero individual axes and/or enter specific offset numbers if you can't start the bit at the origin.
+
+3. Advance Setup:
+     - You can zero individual axes by clicking the "Set X/Y/Z Origin" buttonand
+     - You can enter specific offset numbers by clicking in the number windows.
 
 ### Load the G-Code
 1. Click the Open G-Code Button.  
