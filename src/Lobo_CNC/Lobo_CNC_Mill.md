@@ -28,16 +28,8 @@ To **Stop the router from spinning, turn off the router power**.
 ### Knobs  
 When the mill is not performing any automated activities , the physical position (X, Y, & Z) can be adjusted using the three control knobs.  
 ### Axes  
-The mill uses the normal Cartesian Coordinate system (X, Y, & Z). However, because the workpiece moves relative to the cutting tool, the movement directions (+/-) can be confusing.  
-- Movement in the Z direction is the same:  
-  - Increasing Z moved the cutting tool Up  
-  - Decreasing Z moves the cutting tool Down  
-- Movement in the X direction is counter intuitive:  
-  - Increasing X moved the **workpiece left** relative to you (intuitively -X), but the cutting tool moves to the **right relative the workpiece** (+X).  
-  - Decreasing X moves the **workpiece right** relative to you (intuitivly +X), but the cutting tool moves to the **left relative the workpiece** (-X).  
-- Movement in the Y direction is also counter intuitive:  
-  - Increasing Y moved the **workpiece forward** relative to you (intuitively -Y), but the cutting tool moves **backward relative the workpiece**(+Y).  
-  - Decreasing Y moves the **workpiece backward** relative to you (intuitively +Y), but the cutting tool moves **forward relative the workpiece**(-Y).  
+The mill uses the normal Cartesian Coordinate system (X, Y, & Z). However, because the workpiece moves in the X-Y planes relative to the cutting tool, the movement directions (+/-) can be counter intuitive. For example, when the X position is increased, the bed/workpiece will move to the left and NOT the right (the direction of increasing X). But from the bed/workpiece perspective, increasing X DOES move the the cutting tool to the right (the direction of increasing X) because the bed/workpiece is moving left and the cutting tool is remaining still.
+
 ### Bed Dimensions
 TBD - X, Y, Z dimentions here
 
