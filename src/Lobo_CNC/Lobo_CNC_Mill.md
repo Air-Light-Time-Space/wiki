@@ -35,7 +35,7 @@ TBD - X, Y, Z dimentions here
 
 ## Inputs to this process
 ### G-code
-A text file with step-by-step instructions for the mill. This typically comes from the CAM process.
+G-code is a text file with step-by-step instructions for the mill. This typically comes from the CAM process.
 
 TBD- Maybe include a simple file to use? Or have a step-by-step example, with file, in the appendix?
 
