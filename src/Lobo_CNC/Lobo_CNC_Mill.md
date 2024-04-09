@@ -168,15 +168,15 @@ As you become more familiar with the mill, there are more features available fro
 * Executing single G-code commands manually  
 See the Help File (pscnc.pdf) for more details.  
   
-## G-Code Troubleshooting and Tweaking  
+## Advanced LoboCNC G-code Info    
 Other types of advanced info you can find in the Help File (pscnc.pdf):  
   * How to define different tools (cutting bits) and have the G-code stop and prompt you to change them.  
   * Advanced zeroing/homing the mill location.  
   * Using the Contouring option.  
   * The detailed limitations and capabilities of the LoboCNC G-code Interpreter (PSCNC).  
-
+  
 # More CNC Info In General
-My name is Jim Schultz, and I started this guide. I have zero training in milling or in CNC, and all of my knowledge is from reading, asking questions, or trial & error. If you want to risk my help with this mill, I would be happy to try. You can find me on the [AltSpace Discord](https://discord.com/channels/834243114339401759/834243114339401762).
-
+My name is Jim Schultz, and I started this guide. I have zero training in milling or in CNC, and all of my knowledge is from reading, asking questions, or trial & error. If you want to risk my help with this mill, I would be happy to try. You can find me on the [AltSpace Discord](https://discord.com/channels/834243114339401759/834243114339401762).  
+  
 Other Contributors and/or Milling/CNC advisors:
-<name here>
+<name here>  
