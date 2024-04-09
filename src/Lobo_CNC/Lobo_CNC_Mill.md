@@ -168,10 +168,10 @@ As you become more familiar with the mill, there are more features available fro
 You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here [HERE](./pscnc.pdf), if you dare. Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.  
     
 Types of advanced info you can find in the Help File (pscnc.pdf):  
-  * How to define different tools (cutting bits) and have the G-code stop and prompt you to change them.
-  * Advanced Zeroing homing/zeroing the mill location
-  * Using the Contouring option
-  * The detailed limitations and capabilities of the LoboCNC G-code Interpreter (PSCNC).
+  * How to define different tools (cutting bits) and have the G-code stop and prompt you to change them.  
+  * Advanced zeroing/homing the mill location.  
+  * Using the Contouring option.  
+  * The detailed limitations and capabilities of the LoboCNC G-code Interpreter (PSCNC).  
 
 # More CNC Info In General
 My name is Jim Schultz, and I started this guide. I have zero training in milling or in CNC, and all of my knowledge is from reading, asking questions, or trial & error. If you want to risk my help with this mill, I would be happy to try. You can find me on the [AltSpace Discord](https://discord.com/channels/834243114339401759/834243114339401762).
