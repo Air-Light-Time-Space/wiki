@@ -157,18 +157,19 @@ The next step will start the execution of the G-code. This is a quick reminder t
 6. **Carefully watch the mill behavior and stop it if there are problems or concerns.**
 7. When done, click the Exit button on the display and turn off the router.
 
-
-## G-Code Troubleshooting and Tweaking
+# More Lobo CNC Info
+You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here [HERE](./pscnc.pdf). Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.  
+    
+## G-Code Troubleshooting and Tweaking  
 As you become more familiar with the mill, there are more features available from the Lobo CNC software. e.g.,  
 * Pausing/Resuming the G-code  
-* Single stepping through the G-code
-* Adjusting the movement speed while running
-* Executing single G-code commands manually
-
-# More Lobo CNC Info
-You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here [HERE](./pscnc.pdf), if you dare. Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.  
-    
-Types of advanced info you can find in the Help File (pscnc.pdf):  
+* Single stepping through the G-code  
+* Adjusting the movement speed while running  
+* Executing single G-code commands manually  
+See the Help File (pscnc.pdf) for more details.  
+  
+## G-Code Troubleshooting and Tweaking  
+Other types of advanced info you can find in the Help File (pscnc.pdf):  
   * How to define different tools (cutting bits) and have the G-code stop and prompt you to change them.  
   * Advanced zeroing/homing the mill location.  
   * Using the Contouring option.  
