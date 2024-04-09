@@ -112,8 +112,8 @@ The following is the setup instructions for using the mill. There are additional
 if you wish to use them. When you are ready to cut for real, repeat the instructions without those suggestions. 
 
 ### Setup the Cutting Bit and Material  
-Install your material to be milled. *[For Testing, first do not install any material. Second use scrap material to confirm results.]*  
-How to attach your materiel to the mill table will depend on the type of milling you are performing and is beyond the scope of this guide.  
+1. Install your material to be milled. *[For Testing, first do not install any material. Second use scrap material to confirm results.]*  
+  How to attach your materiel to the mill table will depend on the type of milling you are performing and is beyond the scope of this guide.  
    In general:  
  * Your material must be secure enough to never move while being milled. Large portions (larger than chips) being removed must not be allowed to come loose.  
  * If held down by clamps, they must not be located where the bit will collide with them.  
