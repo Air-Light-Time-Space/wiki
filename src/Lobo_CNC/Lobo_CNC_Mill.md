@@ -146,8 +146,8 @@ As the G-code runs, the lines being executed will be displayed. The highlighted 
 
 # Run the G-Code
 The next step will start the execution of the G-code. This is a quick reminder that:   
-    * To **stop the mill's movement** click the **Feed Hold button**  
-    * To **stop the Router from turning, turn the router OFF**  
+* To **stop the mill's movement** click the **Feed Hold button**  
+* To **stop the Router from turning, turn the router OFF**  
     
 1. Click the "Start G-code" button, to run the G-code.  
 2. Most G-codes will display a window to "Turn on the Router". *[If you are testing with no intent to cut, leave the router turned OFF]*
