@@ -85,7 +85,7 @@ Double-click the Icon for the units you wish to use.
 
 ### Servo Control Power  
 When the software prompts you to,
-* turn on the Servo Control Power. (No Worries if it is already on.)
+* Turn on the Servo Control Power. (No Worries if it is already on.)
 * Click OK  
 ![Feed Hold Button](./ServoControlPowerSwitch.png)
  
