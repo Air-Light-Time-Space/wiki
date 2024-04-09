@@ -178,5 +178,5 @@ Other types of advanced info you can find in the Help File (pscnc.pdf):
 # More CNC Info In General
 My name is Jim Schultz, and I started this guide. I have zero training in milling or in CNC, and all of my knowledge is from reading, asking questions, or trial & error. If you want to risk my help with this mill, I would be happy to try. You can find me on the [AltSpace Discord](https://discord.com/channels/834243114339401759/834243114339401762).  
   
-Other Contributors and/or Milling/CNC advisors:
+Other Contributors and/or Milling/CNC advisors:  
   *Please put your name here* 
