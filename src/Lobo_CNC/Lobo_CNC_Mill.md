@@ -35,14 +35,14 @@ The mill uses the normal Cartesian Coordinate system (X, Y, & Z). However, becau
 ### Bed Dimensions
 TBD - X, Y, Z dimentions here  
 Imperial maximum dimentions:
-  - X:  
-  - Y:  
-  - Z:  (assumes zero tool length)  
+  - X:  10 inches
+  - Y:  7 inches
+  - Z:  6 inches (assumes zero tool length)  
 
 Metric maximum dimentions:  
-  - X:  
-  - Y:  
-  - Z:  (assumes zero tool length)  
+  - X:  254 mm
+  - Y:  178 mm
+  - Z:  152 mm (assumes zero tool length)  
 
 ## Inputs to this process
 ### G-code
@@ -151,12 +151,13 @@ The next step will start the execution of the G-code. This is a quick reminder t
 1. Click the "Start G-code" button, to run the G-code.  
 2. Most G-codes will display a window to "Turn on the Router". *[If you are testing with no intent to cut, leave the router turned OFF]*
 3. Click the OK button.
-4. **Carefully watch the mill behavior and stop it if there are problems or concerns.**
-5. When done, click the Exit button on the display and turn off the router.
+4. Click the "Start G-code" button, again (not sure why).  
+5. **Carefully watch the mill behavior and stop it if there are problems or concerns.**
+6. When done, click the Exit button on the display and turn off the router.
 
 
 ## G-Code Troubleshooting and Tweaking
-As you become more experienced, there are more features available from the Lobo CNC software. e.g.,  
+As you become more familiar with the mill, there are more features available from the Lobo CNC software. e.g.,  
 - Pausing/Resuming the G-code  
 - Single stepping through the G-code
 - Adjusting the movement speed while running
