@@ -120,7 +120,7 @@ if you wish to use them. When you are ready to cut for real, repeat the instruct
  * DO NOT mill into the mill bed. If your material will be milled all the way through, sufficient sacrificial material (spoiler board) must be used underneath.  
 2. Install the cutting bit into the Router. *[For Testing, Leave the Bit Uninstalled]*  
  * Be sure to use the bit that was used for generation of your G-code. i.e., The Diameter of the cutting portion and Shape of the End (End mill, Ball, Tapered,...)
- * Be sure to use the bit intended to but your material. The wrong type can burn or melt your material or be quickly dulled by the material.  
+ * Be sure to use the bit intended to cut your material. The wrong type can burn or melt your material or be quickly dulled by the material.  
 
 ### Zero the Mill Location  
 1. Move the mill so that the end of the bit is located at the the Origin of the model using the X, Y, & Z +/- buttons on the CNC Control Window. (Or the CNC knobs, if need be)  
