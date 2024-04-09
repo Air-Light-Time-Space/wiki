@@ -142,8 +142,8 @@ Here is where you need to be warned that the Lobo CNC software uses a **"Reduced
   
 As the G-code runs, the lines being executed will be displayed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.  
 ![Software Control Panel](./G-codeWindow.PNG)
- 
-    At this point, be watchful and ready to stop the mill if it goes rogue. See the [Safety](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#safety) section above for stopping things.  
+  
+  At this point, be watchful and ready to stop the mill if it goes rogue. See the [Safety](https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#safety) section above for stopping things.  
 
 # Run the G-Code
 The next step will start the execution of the G-code. This is a quick reminder that:   
