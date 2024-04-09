@@ -150,11 +150,12 @@ The next step will start the execution of the G-code. This is a quick reminder t
 * To **stop the Router from turning, turn the router OFF**  
     
 1. Click the "Start G-code" button, to run the G-code.  
-2. Most G-codes will display a window to "Turn on the Router". *[If you are testing with no intent to cut, leave the router turned OFF]*
-3. Click the OK button.
-4. Click the "Start G-code" button, again (not sure why).  
-5. **Carefully watch the mill behavior and stop it if there are problems or concerns.**
-6. When done, click the Exit button on the display and turn off the router.
+2. Most G-codes will display a window to "Turn on the Router".
+3. Turn on the Router. *[If you are testing with no intent to cut, leave the router turned OFF]*  
+4. Click the OK button.
+5. Click the "Start G-code" button, again (not sure why).  
+6. **Carefully watch the mill behavior and stop it if there are problems or concerns.**
+7. When done, click the Exit button on the display and turn off the router.
 
 
 ## G-Code Troubleshooting and Tweaking
