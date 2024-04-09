@@ -7,13 +7,14 @@
 # Guides
 
 - [Laser Engravers](laser_engravers.md)
-
+- [Lobo CNC Mill](./Lobo_CNC/Lobo_CNC_Mill.md)
+- 
 # Maintenance
 
 - [Electrical](electrical.md)
 - [Air Compressor](air_compressor.md)
 - [Annual Fire Permit](fire_permit.md)
-- [First Aid Supplies](first_aid.md)
+- [First Aid Supplies]()
 
 # Processes
 
