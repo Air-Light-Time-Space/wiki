@@ -155,7 +155,10 @@ The next step will start the execution of the G-code. This is a quick reminder t
 4. Click the OK button.
 5. Click the "Start G-code" button, again (not sure why).  
 6. **Carefully watch the mill behavior and stop it if there are problems or concerns.**
-7. When done, click the Exit button on the display and turn off the router.
+7. When done,
+     * Turn off the router,
+     * Click the Exit button on the display, and
+     * turn off the Servo Control Power.
 
 # More Lobo CNC Info
 You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here [Instructions](./pscnc.pdf). Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.  
