@@ -3,6 +3,10 @@
 Minutes from past meetings are reproduced here to provide context
 and direction for space decisions.
 
+## 2024
+
+* *[2024-03-04 - Annual Board Meeting](2024-03-04-Board_Meeting.md)*
+
 ## 2023
 
 * [2023-12-04 - Monthly Member's Meeting](2023-12-04-Member_Meeting.md)
