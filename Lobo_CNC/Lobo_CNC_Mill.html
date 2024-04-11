@@ -1,0 +1,421 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Lobo CNC Mill - The ALT Space Manual</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../index.html">Have you read the Manual?</a></li><li class="chapter-item "><a href="../responsibilities.html">Responsibilities</a></li><li class="chapter-item "><a href="../management.html">Management</a></li><li class="chapter-item affix "><li class="part-title">Guides</li><li class="chapter-item "><a href="../laser_engravers.html">Laser Engravers</a></li><li class="chapter-item expanded "><a href="../Lobo_CNC/Lobo_CNC_Mill.html" class="active">Lobo CNC Mill</a></li><li class="chapter-item affix "><li class="part-title">Maintenance</li><li class="chapter-item "><a href="../electrical.html">Electrical</a></li><li class="chapter-item "><a href="../air_compressor.html">Air Compressor</a></li><li class="chapter-item "><a href="../fire_permit.html">Annual Fire Permit</a></li><li class="chapter-item "><div>First Aid Supplies</div></li><li class="chapter-item affix "><li class="part-title">Processes</li><li class="chapter-item "><a href="../onboarding.html">Onboarding New Members</a></li><li class="chapter-item "><a href="../waivers.html">Liability Waivers</a></li><li class="chapter-item "><a href="../editing.html">Updating this Manual</a></li><li class="chapter-item "><a href="../legal_management.html">Management Responsibilities</a></li><li class="spacer"></li><li class="chapter-item "><a href="../minutes/index.html">Meeting Minutes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../minutes/2024-03-04-Board_Meeting.html">2024-03-04</a></li><li class="chapter-item "><a href="../minutes/2023-12-04-Member_Meeting.html">2023-12-04</a></li><li class="chapter-item "><a href="../minutes/2023-11-06-Board_Meeting.html">2023-11-06</a></li><li class="chapter-item "><a href="../minutes/2023-11-06-Member_Meeting.html">2023-11-06</a></li><li class="chapter-item "><a href="../minutes/2023-10-02-Member_Meeting.html">2023-10-02</a></li><li class="chapter-item "><a href="../minutes/2023-09-04-Member_Meeting.html">2023-09-04</a></li><li class="chapter-item "><a href="../minutes/2023-08-07-Member_Meeting.html">2023-08-07</a></li><li class="chapter-item "><a href="../minutes/2023-07-10-Member_Meeting.html">2023-07-10</a></li><li class="chapter-item "><a href="../minutes/2023-06-05-Member_Meeting.html">2023-06-05</a></li><li class="chapter-item "><a href="../minutes/2023-01-15-Board_Meeting.html">2023-01-15</a></li><li class="chapter-item "><a href="../minutes/2022-12-06-Member_Meeting.html">2022-12-06</a></li><li class="chapter-item "><a href="../minutes/2022-11-07-Member_Meeting.html">2022-11-07</a></li><li class="chapter-item "><a href="../minutes/2022-02-07-Member_Meeting.html">2022-02-07</a></li><li class="chapter-item "><a href="../minutes/2021-12-06-Member_Meeting.html">2021-12-06</a></li><li class="chapter-item "><a href="../minutes/2021-11-01-Member_Meeting.html">2021-11-01</a></li><li class="chapter-item "><a href="../minutes/2021-10-04-Member_Meeting.html">2021-10-04</a></li><li class="chapter-item "><a href="../minutes/2021-09-06-Member_Meeting.html">2021-09-06</a></li><li class="chapter-item "><a href="../minutes/2021-09-01-Board_Meeting.html">2021-09-01</a></li><li class="chapter-item "><a href="../minutes/2021-07-05-Member_Meeting.html">2021-07-05</a></li><li class="chapter-item "><a href="../minutes/2021-06-07-Member_Meeting.html">2021-06-07</a></li><li class="chapter-item "><a href="../minutes/2021-05-03-Member_Meeting.html">2021-05-03</a></li><li class="chapter-item "><a href="../minutes/2021-04-19-Member_Meeting.html">2021-04-19</a></li><li class="chapter-item "><a href="../minutes/2021-03-15-Member_Meeting.html">2021-03-15</a></li><li class="chapter-item "><a href="../minutes/2020-11-16-Member_Meeting.html">2020-11-16</a></li><li class="chapter-item "><a href="../minutes/2020-10-19-Member_Meeting.html">2020-10-19</a></li><li class="chapter-item "><a href="../minutes/2020-08-17-Member_Meeting.html">2020-08-17</a></li><li class="chapter-item "><a href="../minutes/2020-07-06-Member_Meeting.html">2020-07-06</a></li><li class="chapter-item "><a href="../minutes/2020-05-05-Member_Meeting.html">2020-05-05</a></li><li class="chapter-item "><a href="../minutes/2020-04-30-Member_Meeting.html">2020-04-30</a></li><li class="chapter-item "><a href="../minutes/2019-08-05-Member_Meeting.html">2019-08-05</a></li><li class="chapter-item "><a href="../minutes/2019-06-03-Member_Meeting.html">2019-06-03</a></li><li class="chapter-item "><a href="../minutes/2019-04-01-Member_Meeting.html">2019-04-01</a></li><li class="chapter-item "><a href="../minutes/2019-02-04-Member_Meeting.html">2019-02-04</a></li><li class="chapter-item "><a href="../minutes/2019-01-07-Member_Meeting.html">2019-01-07</a></li><li class="chapter-item "><a href="../minutes/2018-08-08-Member_Meeting.html">2018-08-08</a></li><li class="chapter-item "><a href="../minutes/2018-03-01-Member_Meeting.html">2018-03-01</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The ALT Space Manual</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Air-Light-Time-Space/the_manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Air-Light-Time-Space/the_manual/edit/main/src/Lobo_CNC/Lobo_CNC_Mill.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="lobo-cnc-mill"><a class="header" href="#lobo-cnc-mill">Lobo CNC Mill</a></h1>
+<h2 id="general-process"><a class="header" href="#general-process">General Process</a></h2>
+<p>Ideally you came here with a general understanding of the CNC Milling process.</p>
+<p>If not, the generic CNC milling process consists of:<br />
+<strong>A. Capture your design in a computer program.</strong><br />
+Not addressed in this guide.<br />
+<strong>B. Transform your design into CNC Tool instructions (G-code).</strong><br />
+Not addressed in this guide.<br />
+<strong>C. Setup the Tool and run the Tool Instructions (G-code).</strong><br />
+The ==objective of this guide==: How to set up and run the Lobo CNC Mill.</p>
+<p><strong>The assumption is you are here with your G-code in a text file.</strong></p>
+<h2 id="safety"><a class="header" href="#safety">Safety</a></h2>
+<p>This guide assumes you have an understanding of personal safety involving machinery. This is a strong, sharp, spinning machine that may move without warning. It can be loud and throw shrapnel at any time. If you have questions, concerns, or are unsure about your safety, ask someone first.</p>
+<p>To <strong>STOP all mill movement</strong>, click on the Feed Hold button, on the display.<br />
+This <strong>WILL NOT Stop the Router Bit</strong> from spinning.<br />
+<img src="./Lobo_CNC_Mill_FeedHoldButton.png" alt="Feed Hold Button" /></p>
+<p>To <strong>Stop the router from spinning, turn off the router power</strong>.<br />
+<img src="./RouterOnOffSwitch.png" alt="Feed Hold Button" /></p>
+<h2 id="generaloverview"><a class="header" href="#generaloverview">General/Overview</a></h2>
+<h3 id="electronics-switch"><a class="header" href="#electronics-switch">Electronics Switch</a></h3>
+<p><img src="./SwitchesAndSpeed.png" alt="Feed Hold Button" /></p>
+<h3 id="knobs"><a class="header" href="#knobs">Knobs</a></h3>
+<p>When the mill is not performing any automated activities , the physical position (X, Y, &amp; Z) can be adjusted using the three control knobs.</p>
+<h3 id="axes"><a class="header" href="#axes">Axes</a></h3>
+<p>The mill uses the normal Cartesian Coordinate system (X, Y, &amp; Z). However, because the workpiece moves in the X-Y planes relative to the cutting tool, the movement directions (+/-) can be counter intuitive. For example, when the X position is increased, the bed/workpiece will move to the left and NOT the right (the direction of increasing X). But from the bed/workpiece perspective, increasing X DOES move the the cutting tool to the right (the direction of increasing X) because the bed/workpiece is moving left and the cutting tool is remaining still.</p>
+<h3 id="bed-dimensions"><a class="header" href="#bed-dimensions">Bed Dimensions</a></h3>
+<p>Imperial maximum dimensions:</p>
+<ul>
+<li>X:  10 inches</li>
+<li>Y:  7 inches</li>
+<li>Z:  6 inches (assumes zero tool length)</li>
+</ul>
+<p>Metric maximum dimensions:</p>
+<ul>
+<li>X:  254 mm</li>
+<li>Y:  178 mm</li>
+<li>Z:  152 mm (assumes zero tool length)</li>
+</ul>
+<h2 id="inputs-to-this-process"><a class="header" href="#inputs-to-this-process">Inputs to this process</a></h2>
+<h3 id="g-code"><a class="header" href="#g-code">G-code</a></h3>
+<p>G-code is a text file with step-by-step instructions for the mill. This typically comes from the CAM process.</p>
+<p><strong>You will need to know the following about your G-code:</strong></p>
+<ul>
+<li>
+<p><strong>The units</strong> - When the G-code was generated, either Metric or Imperial units were used. Some G-code generators will state the units used. If the file starts with “G20”, then the units are in inches. If it starts with “G21”, then the units are in millimeters. The Lobo CNC Software is NOT smart enough to read this and adjust accordingly. You must run the correct program based on this information. See <a href="https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#imperial-inches-or-metric-millimeters">Imperial (Inches) or Metric (Millimeters)</a>.</p>
+</li>
+<li>
+<p><strong>The origin of the model</strong> - When the G-code was generated, it was relative to the origin, X=0, Y=0, Z=0. All motions and dimensions in the G-code are relative to this location. This is typically one of the top corners of the material, but may be anywhere convenient.</p>
+</li>
+<li>
+<p><strong>The Bit Size &amp; Shape</strong>. See below under <a href="https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#cutting-bit">Cutting Bit</a>.</p>
+</li>
+</ul>
+<h3 id="material-to-cut"><a class="header" href="#material-to-cut">Material to Cut</a></h3>
+<p>This is the stuff you want to mill your design from or into.</p>
+<blockquote>
+<p>“The sculpture is already complete within the marble block… I just have to chisel away the superfluous material.” ― Michelangelo</p>
+</blockquote>
+<p>The material is typically foam, wood, or plastic. The Lobo Mill will struggle to simply engrave soft metals like aluminum. Attempting harder materials is a bad idea.</p>
+<h3 id="cutting-bit"><a class="header" href="#cutting-bit">Cutting Bit</a></h3>
+<ul>
+<li><strong>Bite Type</strong> - The bit must be appropriate for the material being cut. The wrong type can burn or melt your material or be quickly dulled by the material.</li>
+<li><strong>Bit Size &amp; Shape</strong> - The G-code was generated based on this bit and if a different size or shape is used, the results will be different than intended. For example if a larger diameter mill is used, more material will be removed than specified.</li>
+</ul>
+<p>The use of multiple bits is not covered in this guide. The Lobo CNC interpreter does support multiple tools, but there is no tool changer and the changes must occur manually.</p>
+<h2 id="assumptions"><a class="header" href="#assumptions">Assumptions</a></h2>
+<p>The Lobo CNC Mill is already connected to a dedicated PC with the appropriate software installed and configured. Any connecting or configuring is beyond the scope of this simple guide.</p>
+<h1 id="setup-for-the-lobo-cnc-mill"><a class="header" href="#setup-for-the-lobo-cnc-mill">Setup for the Lobo CNC Mill</a></h1>
+<h2 id="start-the-software--homing"><a class="header" href="#start-the-software--homing">Start the Software &amp; Homing</a></h2>
+<h3 id="imperial-inches-or-metric-millimeters"><a class="header" href="#imperial-inches-or-metric-millimeters">Imperial (Inches) or Metric (Millimeters)</a></h3>
+<p>There are two Icons on the PC desktop:</p>
+<ul>
+<li>LoboCNC - Inches</li>
+<li>LoboCNC - Millimeters</li>
+</ul>
+<p>See the units discussion in the <a href="https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#g-code">Inputs/G-code</a> section.</p>
+<p>Double-click the Icon for the units you wish to use.</p>
+<h3 id="servo-control-power"><a class="header" href="#servo-control-power">Servo Control Power</a></h3>
+<p>When the software prompts you to,</p>
+<ul>
+<li>Turn on the Servo Control Power. (No Worries if it is already on.)</li>
+<li>Click OK<br />
+<img src="./ServoControlPowerSwitch.png" alt="Feed Hold Button" /></li>
+</ul>
+<h3 id="homing"><a class="header" href="#homing">Homing</a></h3>
+<p>Next, the software will ask: Do you want to execute the homing process?<br />
+With rare exceptions, answer <strong>yes</strong> to this.</p>
+<p>The Lobo Mill knows where it is by counting the rotations of the threaded shafts. Homing is the process where it moves to the stops of each axis (a known location)  and then zeros that count. Thus, ensuring that the count is correct.</p>
+<h3 id="done-homing"><a class="header" href="#done-homing">Done Homing</a></h3>
+<p>Once the software is done homing, the CNC Control Window will be displayed:<br />
+<img src="./SoftwareControlPanel.png" alt="Software Control Panel" /></p>
+<h2 id="mill-setup"><a class="header" href="#mill-setup">Mill Setup</a></h2>
+<h3 id="test-options"><a class="header" href="#test-options">Test Options</a></h3>
+<p>It is rare to get your expected results from the first run of the G-code.  There will typically be an iterative process of “dialing it in” needed.</p>
+<p>It is recommended to test at least the first portion of your G-code with no bit installed, no material installed, and with the router turned off. This will allow you to watching for the mill exceeding the bed limits of your material or crashing the cutting bit into something.</p>
+<p>Even after you have some confidence in the G-code, it is recommended that you try the first cutting on <strong>Scrap Material First</strong>.</p>
+<p>The following is the setup instructions for using the mill. There are additional<br />
+<strong>[Suggestions for Testing Your Setup]</strong><br />
+if you wish to use them. When you are ready to cut for real, repeat the instructions without those suggestions.</p>
+<h3 id="setup-the-cutting-bit-and-material"><a class="header" href="#setup-the-cutting-bit-and-material">Setup the Cutting Bit and Material</a></h3>
+<ol>
+<li>Install your material to be milled. <em>[For Testing, first do not install any material. Second use scrap material to confirm results.]</em><br />
+How to attach your materiel to the mill table will depend on the type of milling you are performing and is beyond the scope of this guide.<br />
+In general:</li>
+</ol>
+<ul>
+<li>Your material must be secure enough to never move while being milled. Large portions (larger than chips) being removed must not be allowed to come loose.</li>
+<li>If held down by clamps, they must not be located where the bit will collide with them.</li>
+<li>DO NOT mill into the mill bed. If your material will be milled all the way through, sufficient sacrificial material (spoiler board) must be used underneath.</li>
+</ul>
+<ol start="2">
+<li>Install the cutting bit into the Router. <em>[For Testing, Leave the Bit Uninstalled]</em></li>
+</ol>
+<ul>
+<li>Be sure to use the bit that was used for generation of your G-code. i.e., The Diameter of the cutting portion and Shape of the End (End mill, Ball, Tapered,...)</li>
+<li>Be sure to use the bit intended to cut your material. The wrong type can burn or melt your material or be quickly dulled by the material.</li>
+</ul>
+<h3 id="zero-the-mill-location"><a class="header" href="#zero-the-mill-location">Zero the Mill Location</a></h3>
+<ol>
+<li>
+<p>Move the mill so that the end of the bit is located at the the Origin of the model using the X, Y, &amp; Z +/- buttons on the CNC Control Window. (Or the CNC knobs, if need be)<br />
+<em>[If no bit or material are installed, locate the mill approximately, as if they were installed.]</em><br />
+<em>[Alternately, locate the end of the bit much higher than normal - so that all G-code Z movements will NOT contact the table/material]</em></p>
+</li>
+<li>
+<p>Zero the X, Y, &amp; Z coordinates by clicking the "Set All" button.</p>
+</li>
+<li>
+<p>Advance Setup:</p>
+<ul>
+<li>You can zero individual axes by clicking the "Set X/Y/Z Origin" button</li>
+<li>You can enter specific offset numbers by clicking in the number windows</li>
+</ul>
+</li>
+</ol>
+<h3 id="load-the-g-code"><a class="header" href="#load-the-g-code">Load the G-Code</a></h3>
+<ol>
+<li>Click the "Open G-Code" Button.</li>
+<li>Navigate to your G-code file and open it.</li>
+</ol>
+<p>Here is where you need to be warned that the Lobo CNC software uses a <strong>"Reduced G-code Instruction Set"</strong>. Meaning that it only understands "basic" G-code instructions. And unfortunately, the software will simply ignore G-code instructions that it does not recognize, with no caution to the user. The best solution to this issue is to use a CAM output setting for “simpler mills”. I have had good results from CAMs that can generate code for a “Generic Linux CNC”. Barring that, you may need to ask for help or learn some G-code to alter your file.</p>
+<p>As the G-code runs, the lines being executed will be displayed. The highlighted line indicates the NEXT instruction to be executed, the line above the highlighting is the instruction currently being executed.<br />
+<img src="./G-codeWindow.PNG" alt="Software Control Panel" /></p>
+<p>At this point, be watchful and ready to stop the mill if it goes rogue. See the <a href="https://github.com/Air-Light-Time-Space/wiki/blob/A4E-AddLoboCNC/src/Lobo_CNC/Lobo_CNC_Mill.md#safety">Safety</a> section above for stopping things.</p>
+<h1 id="run-the-g-code"><a class="header" href="#run-the-g-code">Run the G-Code</a></h1>
+<p>The next step will start the execution of the G-code. This is a quick reminder that:</p>
+<ul>
+<li>To <strong>stop the mill's movement</strong> click the <strong>Feed Hold button</strong></li>
+<li>To <strong>stop the Router from turning, turn the router OFF</strong></li>
+</ul>
+<ol>
+<li>Click the "Start G-code" button, to run the G-code.</li>
+<li>Most G-codes will display a window to "Turn on the Router".</li>
+<li>Turn on the Router. <em>[If you are testing with no intent to cut, leave the router turned OFF]</em></li>
+<li>Click the OK button.</li>
+<li>Click the "Start G-code" button, again (not sure why).</li>
+<li><strong>Carefully watch the mill behavior and stop it if there are problems or concerns.</strong></li>
+<li>When done,
+<ul>
+<li>Turn off the router,</li>
+<li>Click the Exit button on the display, and</li>
+<li>turn off the Servo Control Power.</li>
+</ul>
+</li>
+</ol>
+<h1 id="more-lobo-cnc-info"><a class="header" href="#more-lobo-cnc-info">More Lobo CNC Info</a></h1>
+<p>You can read the instructions that came with the Lobo CNC Mill by clicking on the "Help" button on the display.  Or, see them here <a href="./pscnc.pdf">Instructions</a>. Keep in mind that the Lobo CNC Mill was a DIY kit from over a decade ago. The instructions are detailed and assume the reader is either experienced or not afraid to experiment. It is my genuine hope that this guide helps you to become both.</p>
+<h2 id="g-code-troubleshooting-and-tweaking"><a class="header" href="#g-code-troubleshooting-and-tweaking">G-Code Troubleshooting and Tweaking</a></h2>
+<p>As you become more familiar with the mill, there are more features available from the Lobo CNC software. <a href="./pscnc.pdf">Instructions</a>. e.g.,</p>
+<ul>
+<li>Pausing/Resuming the G-code</li>
+<li>Single stepping through the G-code</li>
+<li>Adjusting the movement speed while running</li>
+<li>Executing single G-code commands manually<br />
+See the Help File (pscnc.pdf) for more details.</li>
+</ul>
+<h2 id="advanced-lobocnc-g-code-info"><a class="header" href="#advanced-lobocnc-g-code-info">Advanced LoboCNC G-code Info</a></h2>
+<p>Other types of advanced info you can find in the <a href="./pscnc.pdf">Instructions</a>:</p>
+<ul>
+<li>How to define different tools (cutting bits) and have the G-code stop and prompt you to change them.</li>
+<li>Advanced zeroing/homing the mill location.</li>
+<li>Using the Contouring option.</li>
+<li>The detailed limitations and capabilities of the LoboCNC G-code Interpreter (PSCNC).</li>
+</ul>
+<h1 id="more-cnc-info-in-general"><a class="header" href="#more-cnc-info-in-general">More CNC Info In General</a></h1>
+<p>My name is Jim Schultz, and I started this guide. I have zero training in milling or in CNC, and all of my knowledge is from reading, asking questions, or trial &amp; error. If you want to risk my help with this mill, I would be happy to try. You can find me on the <a href="https://discord.com/channels/834243114339401759/834243114339401762">AltSpace Discord</a>.</p>
+<p>Other Contributors and/or Milling/CNC advisors:<br />
+<em>Please put your name here</em></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../laser_engravers.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../electrical.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../laser_engravers.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../electrical.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
