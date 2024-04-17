@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>2024-04-01 - The ALT Space Manual</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item "><a href="../index.html">Have you read the Manual?</a></li><li class="chapter-item "><a href="../responsibilities.html">Responsibilities</a></li><li class="chapter-item "><a href="../management.html">Management</a></li><li class="chapter-item affix "><li class="part-title">Guides</li><li class="chapter-item "><a href="../laser_engravers.html">Laser Engravers</a></li><li class="chapter-item "><a href="../Lobo_CNC/Lobo_CNC_Mill.html">Lobo CNC Mill</a></li><li class="chapter-item affix "><li class="part-title">Maintenance</li><li class="chapter-item "><a href="../electrical.html">Electrical</a></li><li class="chapter-item "><a href="../air_compressor.html">Air Compressor</a></li><li class="chapter-item "><a href="../fire_permit.html">Annual Fire Permit</a></li><li class="chapter-item "><div>First Aid Supplies</div></li><li class="chapter-item affix "><li class="part-title">Processes</li><li class="chapter-item "><a href="../onboarding.html">Onboarding New Members</a></li><li class="chapter-item "><a href="../waivers.html">Liability Waivers</a></li><li class="chapter-item "><a href="../editing.html">Updating this Manual</a></li><li class="chapter-item "><a href="../legal_management.html">Management Responsibilities</a></li><li class="spacer"></li><li class="chapter-item expanded "><a href="../minutes/index.html">Meeting Minutes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../minutes/2024-04-01-Member_Meeting.html" class="active">2024-04-01</a></li><li class="chapter-item "><a href="../minutes/2024-03-04-Board_Meeting.html">2024-03-04</a></li><li class="chapter-item "><a href="../minutes/2023-12-04-Member_Meeting.html">2023-12-04</a></li><li class="chapter-item "><a href="../minutes/2023-11-06-Board_Meeting.html">2023-11-06</a></li><li class="chapter-item "><a href="../minutes/2023-11-06-Member_Meeting.html">2023-11-06</a></li><li class="chapter-item "><a href="../minutes/2023-10-02-Member_Meeting.html">2023-10-02</a></li><li class="chapter-item "><a href="../minutes/2023-09-04-Member_Meeting.html">2023-09-04</a></li><li class="chapter-item "><a href="../minutes/2023-08-07-Member_Meeting.html">2023-08-07</a></li><li class="chapter-item "><a href="../minutes/2023-07-10-Member_Meeting.html">2023-07-10</a></li><li class="chapter-item "><a href="../minutes/2023-06-05-Member_Meeting.html">2023-06-05</a></li><li class="chapter-item "><a href="../minutes/2023-01-15-Board_Meeting.html">2023-01-15</a></li><li class="chapter-item "><a href="../minutes/2022-12-06-Member_Meeting.html">2022-12-06</a></li><li class="chapter-item "><a href="../minutes/2022-11-07-Member_Meeting.html">2022-11-07</a></li><li class="chapter-item "><a href="../minutes/2022-02-07-Member_Meeting.html">2022-02-07</a></li><li class="chapter-item "><a href="../minutes/2021-12-06-Member_Meeting.html">2021-12-06</a></li><li class="chapter-item "><a href="../minutes/2021-11-01-Member_Meeting.html">2021-11-01</a></li><li class="chapter-item "><a href="../minutes/2021-10-04-Member_Meeting.html">2021-10-04</a></li><li class="chapter-item "><a href="../minutes/2021-09-06-Member_Meeting.html">2021-09-06</a></li><li class="chapter-item "><a href="../minutes/2021-09-01-Board_Meeting.html">2021-09-01</a></li><li class="chapter-item "><a href="../minutes/2021-07-05-Member_Meeting.html">2021-07-05</a></li><li class="chapter-item "><a href="../minutes/2021-06-07-Member_Meeting.html">2021-06-07</a></li><li class="chapter-item "><a href="../minutes/2021-05-03-Member_Meeting.html">2021-05-03</a></li><li class="chapter-item "><a href="../minutes/2021-04-19-Member_Meeting.html">2021-04-19</a></li><li class="chapter-item "><a href="../minutes/2021-03-15-Member_Meeting.html">2021-03-15</a></li><li class="chapter-item "><a href="../minutes/2020-11-16-Member_Meeting.html">2020-11-16</a></li><li class="chapter-item "><a href="../minutes/2020-10-19-Member_Meeting.html">2020-10-19</a></li><li class="chapter-item "><a href="../minutes/2020-08-17-Member_Meeting.html">2020-08-17</a></li><li class="chapter-item "><a href="../minutes/2020-07-06-Member_Meeting.html">2020-07-06</a></li><li class="chapter-item "><a href="../minutes/2020-05-05-Member_Meeting.html">2020-05-05</a></li><li class="chapter-item "><a href="../minutes/2020-04-30-Member_Meeting.html">2020-04-30</a></li><li class="chapter-item "><a href="../minutes/2019-08-05-Member_Meeting.html">2019-08-05</a></li><li class="chapter-item "><a href="../minutes/2019-06-03-Member_Meeting.html">2019-06-03</a></li><li class="chapter-item "><a href="../minutes/2019-04-01-Member_Meeting.html">2019-04-01</a></li><li class="chapter-item "><a href="../minutes/2019-02-04-Member_Meeting.html">2019-02-04</a></li><li class="chapter-item "><a href="../minutes/2019-01-07-Member_Meeting.html">2019-01-07</a></li><li class="chapter-item "><a href="../minutes/2018-08-08-Member_Meeting.html">2018-08-08</a></li><li class="chapter-item "><a href="../minutes/2018-03-01-Member_Meeting.html">2018-03-01</a></li></ol></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The ALT Space Manual</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/Air-Light-Time-Space/the_manual" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/Air-Light-Time-Space/the_manual/edit/main/src/minutes/2024-04-01-Member_Meeting.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h2 id="2024-04-01-members-meeting"><a class="header" href="#2024-04-01-members-meeting">2024-04-01 Member's Meeting</a></h2>
+<p>Minutes recorded by: <em>Matthew McKenzie</em> (and formatted/posted by Michael Kirk)</p>
+<p><strong>5</strong> Members in attendance: <strong>Matthew McKenzie, Greg Lucas, and 3 others whose names weren't recorded.</strong></p>
+<hr />
+<p>The April meeting was called into order at approx. 1830 hours. There were five members attending in person, including Board members Greg Lucas and Matthew McKenzie. There were no members attending remotely.</p>
+<h2 id="3d-printing-area"><a class="header" href="#3d-printing-area">3D Printing Area</a></h2>
+<p>Discussion of how to make this area as valuable and accessible as possible to members, many of whom show interest in using (or learning to use) our 3D printers.</p>
+<p>We now have two newish Prusa 3D printers operational: one granted to us in exchange for a surplus PC; and another on long-term loan from a member (Wess). There is support for simplifying and standardizing our 3D printing hardware, to control operational costs and improve access to fully operational printers.</p>
+<p>A member suggested trying to sell unwanted or non-working 3D printing hardware, but it was pointed out that the meager expected return from selling these machines might not justify the effort.</p>
+<p>No votes were taken on the matter, but it was agreed that the owners of any 3D printer hardware, if they can be identified, should be contacted and given the opportunity to retrieve unwanted items.</p>
+<h2 id="air-compressor"><a class="header" href="#air-compressor">Air Compressor</a></h2>
+<p>Greg stated that the leak that has taken the compressor offline is coming from under the steel rack on top of the tank, which holds the compressor machinery and cannot be removed except by cutting with a welding flame.</p>
+<p>Furthermore, given the antique vintage of the compressor, Greg has been unable to find a professional repair person who will even look at the problem without a full, up-front payment for their time, and no guarantees they will be able to diagnose or fix the problem.</p>
+<p>We have a portable compressor that will serve as a replacement for the time being. It is unreasonably noisy, however, and it cannot serve the same use cases (i.e. provide compressed air on demand to the various shop spaces and electronics work area).</p>
+<p>Matthew stated that he would call an emergency Board meeting to authorize funds required to buy a compressor, since this is a matter of some urgency at a critical time for getting members involved with the space and driving membership growth,</p>
+<p>Matthew also briefly noted that his project to re-route network Cat5 cables, including those running the door keypads for the access system, was nearly complete. outages related to the project (e.g. the ALTSpace Wi-Fi) would be fixed soon, and all four surveillance cameras would be back online.</p>
+<p>NOTE: This was done, and the network upgrade project completed, the following weekend.</p>
+<h2 id="paypal-fees"><a class="header" href="#paypal-fees">PayPal Fees</a></h2>
+<p>Greg said he wants to get PayPal to move ALTSpace over to its fee schedule applying to non-profits. He was tying at the time to take the first step in this process, which is understanding what documentation PayPal will require to make this change.</p>
+<h2 id="social-media-and-website"><a class="header" href="#social-media-and-website">Social Media and Website</a></h2>
+<p>Greg asked whether we have a social media strategy, or accounts, or a person in charge of SM posts. Matthew said he didn't think so, nor was he aware of any ALTSpace social media accounts, much less of anyone posting to them.</p>
+<p>Greg is also interested in upgrading the website: modernizing the design, adding additional marketing and member-facing features, etc.</p>
+<h2 id="front-door-security"><a class="header" href="#front-door-security">Front Door Security</a></h2>
+<p>Matthew mentioned some incidents he had involving sketchy people hanging out near/in front of the external door, especially late at night. Other members in attendance noted similar concerns/encounters.</p>
+<p>Matthew said building management offered to reimburse for materials to install lighting  above the door if we took this on as a DIY project. Since nobody has offered to take point on this project, however, there are still no concrete plans to do any of this.</p>
+<h2 id="remove-your-stuff-policy"><a class="header" href="#remove-your-stuff-policy">"Remove Your Stuff" policy</a></h2>
+<p>Greg wants to implement a formal policy governing tools, materials, etc. left behind by departed members. These members will be given ample time (i.e, 30-60 days) to remove these items; after that, the items will officially become the property of ALTSpace, and we may distribute or discard them as we see fit.</p>
+<p>There was no opposition or questions raised about such a policy, which appears to be within Greg's authority to implement without a vote.</p>
+<h2 id="non-profit-consultant"><a class="header" href="#non-profit-consultant">Non-profit Consultant</a></h2>
+<p>Finally, Matthew said he was working with a consultant who is giving ALTSpace five hours a month of pro bono time, along with access to her network of attorneys, accountants, etc. who also work pro bono or at a deep discount. The consultant, Caitlin Pontrella, works with non-profit boards on a variety of financial, operational, risk management and governance issues.'</p>
+<p>Matthew's first call with Caitlin touched on a number of topics. He had also sent Caitlin a copy of our bylaws and current waiver for review ahead of a planned June Board meeting he will convene to consider any changes/additions to the version approved in November, 2023.</p>
+<p>The meeting was adjourned at approx. 1930 hours.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../minutes/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../minutes/2024-03-04-Board_Meeting.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../minutes/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../minutes/2024-03-04-Board_Meeting.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
