@@ -4,6 +4,8 @@ Minutes recorded by: **Michael Kirk**
 
 **12** Members in attendance: **Andrew, Chuck, Dan, Greg, Kevin, Matt Chang, Matthew McKenzie, Michael, Noah, Rahul, Roberto, Will**
 
+**3.2 of 4** pizzas eaten, strong preference for pepperoni was observed.
+
 ---
 
 ### Greg: Wants to fix or get rid of broken equipment.
