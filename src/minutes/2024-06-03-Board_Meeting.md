@@ -2,7 +2,7 @@
 
 Minutes recorded by: **Michael Kirk**
 
-**6** Board Members in attendance: **Andrew, Greg, Kevin, Matthew Stuart, Michael, Noah**
+**6** Board Members in attendance: **Andrew, Greg, Kevin, Matthew McKenzie, Michael, Noah**
 
 ---
 
@@ -10,9 +10,9 @@ Minutes recorded by: **Michael Kirk**
 
 Matt Chang was unanimously elected to the board by the six board members present.
 
-~~-**6**-~~ **7** Board Members in attendance: **Andrew, Greg, Kevin, Matthew Stuart, Matt Chang, Michael, Noah**
+~~-**6**-~~ **7** Board Members in attendance: **Andrew, Greg, Kevin, Matthew McKenzie, Matt Chang, Michael, Noah**
 
-## Matthew Stuart: proposed purchasing a Directors and Officers (D&O) insurance policy
+## Matthew McKenzie: proposed purchasing a Directors and Officers (D&O) insurance policy
 
 This would protect board member's personal liablity, up to $1MM.
 Cost is about $1,300/year

@@ -2,7 +2,7 @@
 
 Minutes recorded by: **Michael Kirk**
 
-**12** Members in attendance: **Andrew, Chuck, Dan, Greg, Kevin, Matt Chang, Matthew Stuart, Michael, Noah, Rahul, Roberto, Will**
+**12** Members in attendance: **Andrew, Chuck, Dan, Greg, Kevin, Matt Chang, Matthew McKenzie, Michael, Noah, Rahul, Roberto, Will**
 
 ---
 
@@ -17,7 +17,7 @@ Noah suggested that the limit might refer to __concurrently__ running.
 It's never the case that we have more than 4 machines running concurrently at altspace —
 We probably don't even have the circuits for that — so maybe the smaller permit is sufficient for us.
 
-* 👷 (Matt Stuart?) is dealing with the permit process
+* 👷 (Matt McKenzie?) is dealing with the permit process
 
 ### Greg: wants to clarify policy on how long we keep peoples things here.
 
@@ -122,7 +122,7 @@ Andrew mentioned maybe we could run a new circuit to the breaker box. Once we ru
 * 👷 Matthew is going to extend circuit G into the metalshop
 * 👷 Andrew is going to follow up w/ James about adding a new circuit to the box.
 
-### Matthew Stuart (treasurer) gave a treasurer's update
+### Matthew McKenzie (treasurer) gave a treasurer's update
 
 Currently:
 - 97 members!
