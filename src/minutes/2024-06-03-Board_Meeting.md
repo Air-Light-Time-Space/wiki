@@ -6,7 +6,7 @@ Minutes recorded by: **Michael Kirk**
 
 ---
 
-## Add Matt Change to the board
+## Add Matt Chang to the board
 
 Matt Chang was unanimously elected to the board by the six board members present.
 
