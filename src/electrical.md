@@ -10,6 +10,10 @@ If you do trip a breaker use the diagrams below to identify which circuit you tr
 
 ![alt text](./images/electrical/circuit_diagram.jpg)
 
+**Amendments:** 
+- As of some time early 2024, Circuit-C is dead.
+- As of some time early 2024, an additional circuit was extended to the upper level. If someone has the details, update this page or ask someone on discord to update this page.
+
 ## Breaker Locations
 
 Neither of the two breakers are accessible without requesting access from other tenants. Please do not enter another tenants space without getting permission. The other tenants are aware that the circuit breakers are located in their spaces.
