@@ -8,6 +8,7 @@
 
 - [Laser Engravers](laser_engravers.md)
 - [Lobo CNC Mill](./Lobo_CNC/Lobo_CNC_Mill.md)
+- [Torchmate Plasma Table](./Torchmate/Torchmate_Plasma_Table.md)
 
 # Maintenance
 
