@@ -14,6 +14,7 @@ You can etch and even cut out material if it's thin enough.
   - The switch for Mercury II is a little hard to find - it's on the back right corner.
 - Turn on the air blower. Without it, cuts are much more likely to flame.
   - SpiritGX has a built in air compressor in the cabinet below the engraver.
+    - There is a manual flow rate adjustment in the cabinet
     - Currently the compressor leaks something fierce, so only have it on while you're engraving.
   - Mercury II is connected to an external air line - open it just a bit to let air flow.
     - Close it when you're done!
@@ -26,6 +27,10 @@ You can etch and even cut out material if it's thin enough.
 ## Periodic maintenance
 
 - clean the lens following the instructions in the user guide.
+- lens must be in correct position for proper focus
+  <img alt="lens goes in lower slot" src="/images/laser_spirit_lens.png" height=400 />
+
+
 
 ## Software
 
