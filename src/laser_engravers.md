@@ -28,7 +28,7 @@ You can etch and even cut out material if it's thin enough.
 
 - clean the lens following the instructions in the user guide.
 - lens must be in correct position for proper focus
-  <img alt="lens goes in lower slot" src="/images/laser_spirit_lens.png" height=400 />
+  <img alt="lens goes in lower slot" src="images/laser_spirit_lens.png" height=00 />
 
 
 
@@ -45,7 +45,7 @@ The laser can do two kind of printing.
 
 ### Raster Printing
 
-<img alt="raster laser engraving goes back and forth" src="/images/laser_engraving_raster.webp" height=200 />
+<img alt="raster laser engraving goes back and forth" src="images/laser_engraving_raster.webp" height=200 />
 
 During **raster** printing, the engraver will go back and forth from top to bottom, like an old inkjet printer, and pulse the laser when it's over something that needs to be etched.
 
@@ -53,7 +53,7 @@ This seems to be the "default" way of engraving with our print driver. e.g. if y
 
 ### Vector Printing
 
-<img alt="vector laser engraving follows the shape of the lines" src="/images/laser_engraving_vector.gif" height=200 />
+<img alt="vector laser engraving follows the shape of the lines" src="images/laser_engraving_vector.gif" height=200 />
 
 During **vector** printing, the engraver will follow the shape of each line as it engraves.
 
@@ -65,7 +65,7 @@ You can't use it for broad strokes or for filling in background - raster will be
 
 Specifically, **the print will only attempt to vector print line widths set between 0.001" (0.025mm), 0.004" (0.1mm)**, everything else will be considered raster.
 
-<img alt="moomin troll creature looking at some text that says 'Keep Clear'" src="/images/laser_engraver_moomin.jpg" height=400 />
+<img alt="moomin troll creature looking at some text that says 'Keep Clear'" src="images/laser_engraver_moomin.jpg" height=400 />
 
 It's OK to combine raster and vectors in a single print. In the above "Keep Clear" print, the letter outlines and the border rectangle were vector cut, while the letter fill and the Moomin strokes were done raster, all in a single print job.
 
