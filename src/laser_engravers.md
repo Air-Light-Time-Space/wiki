@@ -28,7 +28,7 @@ You can etch and even cut out material if it's thin enough.
 
 - clean the lens following the instructions in the user guide.
 - lens must be in correct position for proper focus <br>
-  <img alt="lens goes in lower slot" src="images/laser_spirit_lens.png" height=300 />
+  <img alt="lens goes in lower slot" src="images/laser_spirit_lens.jpg" height=300 />
 
 
 
