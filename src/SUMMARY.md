@@ -15,7 +15,7 @@
 - [Electrical](electrical.md)
 - [Air Compressor](air_compressor.md)
 - [Annual Fire Permit](fire_permit.md)
-- [First Aid Supplies]()
+- [First Aid Supplies](first_aid.md)
 
 # Processes
 
