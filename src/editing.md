@@ -20,10 +20,10 @@ take a minute.
 ## Previewing your changes locally
 
 Github's built in browser editor lets you preview your markdown changes, but it may render things a little 
-differently from our wiki software. If you'd like to see you changes before you 
+differently from our wiki software. If you'd like to see your changes before you 
 commit them, or if you want to test links, you'll need to build the wiki locally
 before pushing your changes. To do so, you'll need to install the tool that builds 
-our wiki, mdbook.
+our wiki, `mdbook`.
 
 You can install mdbook by downloading a 
 [pre-built release](https://github.com/rust-lang/mdBook/releases), or if you have 
@@ -31,4 +31,3 @@ You can install mdbook by downloading a
 with `cargo install mdbook`. 
 
 Then cd to the wiki directory and run `mdbook serve`.
-
