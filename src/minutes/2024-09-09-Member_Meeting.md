@@ -26,7 +26,7 @@ Matt Stuart is planning to run circuit C up to the electrical outlets, also ethe
 
 ### Ian wants to run a compressed air line and hose reel into the metal shop.
 
-Members in attendance approved of the the expense.
+Members in attendance approved of the expense.
 
 ### Hot Permits
 
