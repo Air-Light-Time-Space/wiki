@@ -9,7 +9,7 @@ Make sure that the new member:
 
 If all of the above is true, you can tell them the codes and welcome them to the space! Have them send an email to the space manager to get an invitation to the mailing list and shared calendar.
 
-Blank waivers can be found in the filing cabinet just to your right as you walk in the keypad door. Completed waivers can be left in the cash deposit box (on that same wall next to the first aid kit).
+Blank waivers can be found in the hanging file just to your left as you walk in the keypad door. Completed waivers can be left in the cash deposit box (on that same wall next to the first aid kit).
 
 ## Orientation essentials
 
