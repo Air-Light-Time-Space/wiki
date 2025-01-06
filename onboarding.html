@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="light" dir="ltr">
+<html lang="en" class="light sidebar-visible" dir="ltr">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -7,7 +7,7 @@
 
 
         <!-- Custom HTML head -->
-        
+
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
@@ -30,15 +30,17 @@
 
         <!-- Custom theme stylesheets -->
 
-    </head>
-    <body class="sidebar-visible no-js">
-    <div id="body-container">
+
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
-
+        <!-- Start loading toc.js asap -->
+        <script src="toc.js"></script>
+    </head>
+    <body>
+    <div id="body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
@@ -60,19 +62,16 @@
             var theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
-            var html = document.querySelector('html');
+            const html = document.documentElement;
             html.classList.remove('light')
             html.classList.add(theme);
-            var body = document.querySelector('body');
-            body.classList.remove('no-js')
-            body.classList.add('js');
+            html.classList.add("js");
         </script>
 
         <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var body = document.querySelector('body');
             var sidebar = null;
             var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
@@ -82,45 +81,25 @@
                 sidebar = 'hidden';
             }
             sidebar_toggle.checked = sidebar === 'visible';
-            body.classList.remove('sidebar-visible');
-            body.classList.add("sidebar-" + sidebar);
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
-            <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item "><a href="index.html">Have you read the Manual?</a></li><li class="chapter-item "><a href="responsibilities.html">Responsibilities</a></li><li class="chapter-item "><a href="management.html">Management</a></li><li class="chapter-item affix "><li class="part-title">Guides</li><li class="chapter-item "><a href="laser_engravers.html">Laser Engravers</a></li><li class="chapter-item "><a href="Lobo_CNC/Lobo_CNC_Mill.html">Lobo CNC Mill</a></li><li class="chapter-item "><a href="Torchmate/Torchmate_Plasma_Table.html">Torchmate Plasma Table</a></li><li class="chapter-item affix "><li class="part-title">Maintenance</li><li class="chapter-item "><a href="electrical.html">Electrical</a></li><li class="chapter-item "><a href="air_compressor.html">Air Compressor</a></li><li class="chapter-item "><a href="fire_permit.html">Annual Fire Permit</a></li><li class="chapter-item "><a href="first_aid.html">First Aid Supplies</a></li><li class="chapter-item affix "><li class="part-title">Processes</li><li class="chapter-item expanded "><a href="onboarding.html" class="active">Onboarding New Members</a></li><li class="chapter-item "><a href="waivers.html">Liability Waivers</a></li><li class="chapter-item "><a href="editing.html">Updating this Manual</a></li><li class="chapter-item "><a href="legal_management.html">Management Responsibilities</a></li><li class="chapter-item affix "><li class="spacer"></li><li class="chapter-item "><a href="minutes/index.html">Meeting Minutes</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="minutes/2024-10-07-Member_Meeting.html">2024-10-07</a></li><li class="chapter-item "><a href="minutes/2024-09-09-Member_Meeting.html">2024-09-09</a></li><li class="chapter-item "><a href="minutes/2024-08-05-Member_Meeting.html">2024-08-05</a></li><li class="chapter-item "><a href="minutes/2024-06-03-Board_Meeting.html">2024-06-03 (Board)</a></li><li class="chapter-item "><a href="minutes/2024-06-03-Member_Meeting.html">2024-06-03</a></li><li class="chapter-item "><a href="minutes/2024-04-01-Member_Meeting.html">2024-04-01</a></li><li class="chapter-item "><a href="minutes/2024-03-04-Board_Meeting.html">2024-03-04 (Board)</a></li><li class="chapter-item "><a href="minutes/2023-12-04-Member_Meeting.html">2023-12-04</a></li><li class="chapter-item "><a href="minutes/2023-11-06-Board_Meeting.html">2023-11-06 (Board)</a></li><li class="chapter-item "><a href="minutes/2023-11-06-Member_Meeting.html">2023-11-06</a></li><li class="chapter-item "><a href="minutes/2023-10-02-Member_Meeting.html">2023-10-02</a></li><li class="chapter-item "><a href="minutes/2023-09-04-Member_Meeting.html">2023-09-04</a></li><li class="chapter-item "><a href="minutes/2023-08-07-Member_Meeting.html">2023-08-07</a></li><li class="chapter-item "><a href="minutes/2023-07-10-Member_Meeting.html">2023-07-10</a></li><li class="chapter-item "><a href="minutes/2023-06-05-Member_Meeting.html">2023-06-05</a></li><li class="chapter-item "><a href="minutes/2023-01-15-Board_Meeting.html">2023-01-15 (Board)</a></li><li class="chapter-item "><a href="minutes/2022-12-06-Member_Meeting.html">2022-12-06</a></li><li class="chapter-item "><a href="minutes/2022-11-07-Member_Meeting.html">2022-11-07</a></li><li class="chapter-item "><a href="minutes/2022-02-07-Member_Meeting.html">2022-02-07</a></li><li class="chapter-item "><a href="minutes/2021-12-06-Member_Meeting.html">2021-12-06</a></li><li class="chapter-item "><a href="minutes/2021-11-01-Member_Meeting.html">2021-11-01</a></li><li class="chapter-item "><a href="minutes/2021-10-04-Member_Meeting.html">2021-10-04</a></li><li class="chapter-item "><a href="minutes/2021-09-06-Member_Meeting.html">2021-09-06</a></li><li class="chapter-item "><a href="minutes/2021-09-01-Board_Meeting.html">2021-09-01 (Board)</a></li><li class="chapter-item "><a href="minutes/2021-07-05-Member_Meeting.html">2021-07-05</a></li><li class="chapter-item "><a href="minutes/2021-06-07-Member_Meeting.html">2021-06-07</a></li><li class="chapter-item "><a href="minutes/2021-05-03-Member_Meeting.html">2021-05-03</a></li><li class="chapter-item "><a href="minutes/2021-04-19-Member_Meeting.html">2021-04-19</a></li><li class="chapter-item "><a href="minutes/2021-03-15-Member_Meeting.html">2021-03-15</a></li><li class="chapter-item "><a href="minutes/2020-11-16-Member_Meeting.html">2020-11-16</a></li><li class="chapter-item "><a href="minutes/2020-10-19-Member_Meeting.html">2020-10-19</a></li><li class="chapter-item "><a href="minutes/2020-08-17-Member_Meeting.html">2020-08-17</a></li><li class="chapter-item "><a href="minutes/2020-07-06-Member_Meeting.html">2020-07-06</a></li><li class="chapter-item "><a href="minutes/2020-05-05-Member_Meeting.html">2020-05-05</a></li><li class="chapter-item "><a href="minutes/2020-04-30-Member_Meeting.html">2020-04-30</a></li><li class="chapter-item "><a href="minutes/2019-08-05-Member_Meeting.html">2019-08-05</a></li><li class="chapter-item "><a href="minutes/2019-06-03-Member_Meeting.html">2019-06-03</a></li><li class="chapter-item "><a href="minutes/2019-04-01-Member_Meeting.html">2019-04-01</a></li><li class="chapter-item "><a href="minutes/2019-02-04-Member_Meeting.html">2019-02-04</a></li><li class="chapter-item "><a href="minutes/2019-01-07-Member_Meeting.html">2019-01-07</a></li><li class="chapter-item "><a href="minutes/2018-08-08-Member_Meeting.html">2018-08-08</a></li><li class="chapter-item "><a href="minutes/2018-03-01-Member_Meeting.html">2018-03-01</a></li></ol></li></ol>
-            </div>
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
             </div>
         </nav>
 
-        <!-- Track and set sidebar scroll position -->
-        <script>
-            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
-                if (e.target.tagName === 'A') {
-                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
-                }
-            }, { passive: true });
-            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
-            sessionStorage.removeItem('sidebar-scroll');
-            if (sidebarScrollTop) {
-                // preserve sidebar scroll position when navigating via links within sidebar
-                sidebarScrollbox.scrollTop = sidebarScrollTop;
-            } else {
-                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
-                var activeSection = document.querySelector('#sidebar .active');
-                if (activeSection) {
-                    activeSection.scrollIntoView({ block: 'center' });
-                }
-            }
-        </script>
-
         <div id="page-wrapper" class="page-wrapper">
 
             <div class="page">
-                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
                         <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
@@ -184,34 +163,45 @@
 <p>Make sure that the new member:</p>
 <ul>
 <li>Has filled out a <a href="waivers.html">waiver</a></li>
-<li>Has read and understands the <a href="https://altspaceseattle.com/alt-rules/">rules of the space</a></li>
+<li>Has gone through an orietnation and has read and understands the <a href="https://altspaceseattle.com/alt-rules/">rules of the space</a></li>
 <li>Has made at least one payment of membership dues by cash, check, or paypal</li>
 </ul>
-<p>If all of the above is true, you can tell them the codes and welcome them to the space! Have them send an email to the space manager to get an invitation to the mailing list and shared calendar.</p>
+<p>If all of the above is true, you can give them access to the spacce and <a href="#communication-channels">communication channels</a> and welcome them to the space!</p>
+<h2 id="waivers"><a class="header" href="#waivers">Waivers</a></h2>
 <p>Blank waivers can be found in the hanging file just to your left as you walk in the keypad door. Completed waivers can be left in the cash deposit box (on that same wall next to the first aid kit).</p>
 <h2 id="orientation-essentials"><a class="header" href="#orientation-essentials">Orientation essentials</a></h2>
 <p>Altspace is a special place, and might operate differently from what people are used to.</p>
+<p>As well as <a href="https://altspaceseattle.com/alt-rules/">written rules</a>, walk the new member through the space.</p>
 <p>At a minimum, you should go over these things:</p>
 <ul>
 <li>Exterior door: there's a little jiggle dance you have to do to get it open. Have them try.</li>
-<li>Close doors/lock up when you leave.</li>
+<li>Last person out closes the doors/lock up when you leave. Communicate when you are leaving so anyone else knows they are the last person.</li>
 <li>There is no one responsible for cleaning up your messes except yourself,
 so clean up after yourself + an extra 20%.</li>
 <li>Tag/tape system:
 <ul>
-<li>red (private)</li>
-<li>yellow (with permission)</li>
+<li>red (private - do not use this — There should be a name on it if you have questions.)</li>
+<li>yellow (use with permission — there should be a name to contact on it.)</li>
 <li>blue or untagged (public)</li>
 </ul>
 </li>
 <li>Ask the new member what project(s) they are pursuing so you can give them any specific tool orientations relevant to them,
-or if it's a machine you aren't familiar with, help them ask in discord</li>
+or if it's a machine you aren't familiar with, help them to ask in discord.</li>
+</ul>
+<h3 id="woodshop"><a class="header" href="#woodshop">Woodshop</a></h3>
+<ul>
+<li>Dust collection should be connected whenever using the table saw or planer. If there is <em>any</em> sawdust accruing in the plastic overflow bag, that means the primary sawdust collection barrel is <strong>over</strong> full and needs to be emptied immediately. Show them how connect the hoses, turn on the machine, and how to remove the sawdust barrel, because it is a little clunky.</li>
+</ul>
+<h3 id="metalshop"><a class="header" href="#metalshop">Metalshop</a></h3>
+<ul>
+<li>Always turn on ventilation.</li>
 </ul>
 <h2 id="communication-channels"><a class="header" href="#communication-channels">Communication channels</a></h2>
 <p>Currently, most day to day chatter is on our <a href="https://discord.com/channels/834243114339401759/834243243989663744">Discord chat
 server</a>.</p>
 <p>There is also the <a href="https://groups.google.com/d/forum/altspace-seattle">altspace-seattle
 google-group</a> mailing list.</p>
+<p>Several people, including the space manager, monitor the <a href="mailto:altspace@ignitionnw.org">altspace@ignitionnw.org</a> inbox.</p>
 <p>We use a shared google calendar to coordinate sharing high demand resources like the woodshop. You're welcome to stop by without a reservation, but if someone already has it reserved, they get priority. Ensure that your fellow members have fair opportunities to use the space by making your reservations not too frequent or long.</p>
 
                     </main>
