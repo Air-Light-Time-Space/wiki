@@ -5,6 +5,8 @@ and direction for space decisions.
 
 ## 2024
 
+* [2024-12-02 - Board Meeting](2024-12-02-Board_Meeting.md)
+* [2024-12-02 - Monthly Member's Meeting](2024-12-02-Member_Meeting.md)
 * [2024-10-07 - Monthly Member's Meeting](2024-10-07-Member_Meeting.md)
 * [2024-09-09 - Monthly Member's Meeting](2024-09-09-Member_Meeting.md)
 * [2024-08-05 - Monthly Member's Meeting](2024-08-05-Member_Meeting.md)
