@@ -3,6 +3,7 @@
 Minutes recorded by: **Michael Kirk**
 
 **6** Board members in attendance: **Noah Tippett, Matt Chang, Al Tempelton, Matt McKenzie, Greg Lucas, Michael Kirk**
+
 **1** Observer in attendance: **Daniel S.**
 
 ---
