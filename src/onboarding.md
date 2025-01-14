@@ -42,12 +42,12 @@ At a minimum, you should go over these things:
 
 ## Communication channels
 
-Currently, most day to day chatter is on our [Discord chat
-server](https://discord.com/channels/834243114339401759/834243243989663744).
+💬 [Discord chat
+](https://discord.com/channels/834243114339401759/834243243989663744) is where most day to day chatter happens.
 
-There is also the [altspace-seattle
-google-group](https://groups.google.com/d/forum/altspace-seattle) mailing list.
+📆 [ALTSpace public calendar](https://calendar.google.com/calendar/u/0?cid=ZnRnc210cjJua2lwZWJpNjN1c2EyamJ2MjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) is for scheduled orientations, events, or anything else you want to coordinate with others in the space. In the past when our shop was smaller, we've used this to coordinate sharing high demand resources like the woodshop. You're welcome to work  without a reservation, but if someone already has it reserved, they get priority. Ensure that your fellow members have fair opportunities to use the space by making your reservations not too frequent or long.
 
-Several people, including the space manager, monitor the <a href="mailto:altspace@ignitionnw.org">altspace@ignitionnw.org</a> inbox.
+✉️ [altspace-seattle
+google-group](https://groups.google.com/d/forum/altspace-seattle) has existed for a long time, but doesn't get much traffic these days.
 
-We use a shared google calendar to coordinate sharing high demand resources like the woodshop. You're welcome to stop by without a reservation, but if someone already has it reserved, they get priority. Ensure that your fellow members have fair opportunities to use the space by making your reservations not too frequent or long.
+✉️ [altspace@ignitionnw.org](mailto:altspace@ignitionnw.org) is a catch-all place for questions, monitored by several members, including the space manager.
