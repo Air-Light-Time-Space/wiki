@@ -7,7 +7,7 @@ Make sure that the new member:
 * Has gone through an orietnation and has read and understands the [rules of the space](https://altspaceseattle.com/alt-rules/)
 * Has made at least one payment of membership dues by cash, check, or paypal
 
-If all of the above is true, you can give them access to the spacce and [communication channels](#communication-channels) and welcome them to the space! 
+If all of the above is true, you can give them access to the space and [communication channels](#communication-channels) and welcome them to the space! 
 
 ## Waivers
 
@@ -45,9 +45,11 @@ At a minimum, you should go over these things:
 💬 [Discord chat
 ](https://discord.com/channels/834243114339401759/834243243989663744) is where most day to day chatter happens.
 
-📆 [ALTSpace public calendar](https://calendar.google.com/calendar/u/0?cid=ZnRnc210cjJua2lwZWJpNjN1c2EyamJ2MjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) is for scheduled orientations, events, or anything else you want to coordinate with others in the space. In the past when our shop was smaller, we've used this to coordinate sharing high demand resources like the woodshop. You're welcome to work  without a reservation, but if someone already has it reserved, they get priority. Ensure that your fellow members have fair opportunities to use the space by making your reservations not too frequent or long.
-
 ✉️ [altspace-seattle
 google-group](https://groups.google.com/d/forum/altspace-seattle) has existed for a long time, but doesn't get much traffic these days.
 
-✉️ [altspace@ignitionnw.org](mailto:altspace@ignitionnw.org) is a catch-all place for questions, monitored by several members, including the space manager.
+✉️ [altspace@ignitionnw.org](mailto:altspace@ignitionnw.org) is a catch-all place to ask questions, monitored by several members, including the space manager.
+
+📆 [ALTSpace public calendar](https://calendar.google.com/calendar/u/0?cid=ZnRnc210cjJua2lwZWJpNjN1c2EyamJ2MjBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) is for orientations, events, or anything else you want to coordinate in the space. Contact altspace@ignitionnw.org to get added as a calendar editor (every member should be a calendar editor).
+
+In the past when our shop was smaller, we've used this to coordinate sharing high demand resources like the woodshop. You're welcome to work  without a reservation, but if someone already has it reserved, they get priority. Ensure that your fellow members have fair opportunities to use the space by making your reservations not too frequent or long.
