@@ -5,6 +5,7 @@ and direction for space decisions.
 
 ## 2025
 
+* [2025-02-03 - Monthly Member's Meeting](2025-02-03-Member_Meeting.md)
 * [2025-01-06 - Board Meeting](2025-01-06-Board_Meeting.md)
 * [2025-01-06 - Monthly Member's Meeting](2025-01-06-Member_Meeting.md)
 
