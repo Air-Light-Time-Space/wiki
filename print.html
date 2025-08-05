@@ -25,28 +25,41 @@
         <link rel="stylesheet" href="fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" id="highlight-css" href="highlight.css">
+        <link rel="stylesheet" id="tomorrow-night-css" href="tomorrow-night.css">
+        <link rel="stylesheet" id="ayu-highlight-css" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
 
-        <!-- Provide site root to javascript -->
+        <!-- Provide site root and default themes to javascript -->
         <script>
-            var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+            window.path_to_searchindex_js = "searchindex.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc.js"></script>
     </head>
     <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
     <div id="body-container">
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
         <script>
             try {
-                var theme = localStorage.getItem('mdbook-theme');
-                var sidebar = localStorage.getItem('mdbook-sidebar');
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
 
                 if (theme.startsWith('"') && theme.endsWith('"')) {
                     localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
@@ -60,7 +73,8 @@
 
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
-            var theme;
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
             try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             const html = document.documentElement;
@@ -73,17 +87,20 @@
 
         <!-- Hide / unhide sidebar before it is displayed -->
         <script>
-            var sidebar = null;
-            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
                 try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
+                sidebar_toggle.checked = false;
             }
-            sidebar_toggle.checked = sidebar === 'visible';
-            html.classList.remove('sidebar-visible');
-            html.classList.add("sidebar-" + sidebar);
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
         </script>
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
@@ -110,13 +127,14 @@
                             <i class="fa fa-paint-brush"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="default_theme">Auto</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                        <button id="search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="searchbar">
                             <i class="fa fa-search"></i>
                         </button>
                     </div>
@@ -136,7 +154,12 @@
 
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        <div class="search-wrapper">
+                            <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                            <div class="spinner-wrapper">
+                                <i class="fa fa-spinner fa-spin"></i>
+                            </div>
+                        </div>
                     </form>
                     <div id="searchresults-outer" class="searchresults-outer hidden">
                         <div id="searchresults-header" class="searchresults-header"></div>
@@ -784,6 +807,7 @@ with <code>cargo install mdbook</code>.</p>
 and direction for space decisions.</p>
 <h2 id="2025"><a class="header" href="#2025">2025</a></h2>
 <ul>
+<li><a href="minutes/2025-08-04-Member_Meeting.html">2025-08-04 - Monthly Member's Meeting</a></li>
 <li><a href="minutes/2025-02-03-Member_Meeting.html">2025-02-03 - Monthly Member's Meeting</a></li>
 <li><a href="minutes/2025-01-06-Board_Meeting.html">2025-01-06 - Board Meeting</a></li>
 <li><a href="minutes/2025-01-06-Member_Meeting.html">2025-01-06 - Monthly Member's Meeting</a></li>
@@ -852,6 +876,68 @@ and direction for space decisions.</p>
 <ul>
 <li><a href="minutes/2018-08-08-Member_Meeting.html">2018-08-08 - Monthly Member's Meeting</a></li>
 <li><a href="minutes/2018-03-01-Member_Meeting.html">2018-03-01 - Member Meeting</a></li>
+</ul>
+<div style="break-before: page; page-break-before: always;"></div><h2 id="2025-08-04-members-meeting"><a class="header" href="#2025-08-04-members-meeting">2025-08-04 Member's Meeting</a></h2>
+<p>Minutes recorded by: <strong>Michael Kirk</strong></p>
+<p><strong>4</strong> Members in attendance: <strong>Matthew McKenzie, Christian, Michael Kirk, Daniel S, Conor (new member!)</strong></p>
+<hr />
+<p>We met on the loading dock under the low sun of a late summer evening. It was pretty pleasant.</p>
+<h2 id="matthew-and-christian-presented-a-proposal-for-air-circulation-in-the-woodshop"><a class="header" href="#matthew-and-christian-presented-a-proposal-for-air-circulation-in-the-woodshop">Matthew and Christian presented a proposal for air circulation in the woodshop</a></h2>
+<p>Christian has spec'd a circulation system that will filter exhaust from the woodshop into the main space.</p>
+<p>The goals are:</p>
+<ol>
+<li>Create some negative pressure in the woodshop so as to keep dust out of the main space.</li>
+<li>Recirculate the air in the woodshop to reduce the amount of harmful particles in the woodshop air.</li>
+</ol>
+<p>The basic idea is a fan will suck air through a pre-filter, before going through a HEPA filter, and then this filtered air will be vented into the main space.</p>
+<p>The negative pressure will draw air from the main space back into the woodshop, primarily through the door. Some additional ideas (outside of the scope of this budget) were shot around to better seal the woodshop to increase efficacy of dust control.</p>
+<p>We voted unanimously to authorize spending up to $1,000 on the system.</p>
+<ul>
+<li>👷 TODO: Christian will purchase the parts and work on installation.</li>
+</ul>
+<h2 id="matthew-presented-a-proposal-for-dust-collection-in-the-woodshop"><a class="header" href="#matthew-presented-a-proposal-for-dust-collection-in-the-woodshop">Matthew presented a proposal for dust collection in the woodshop</a></h2>
+<p>Related to the first proposal, we talked how to reduce the amount of dust entering the woodshop air in the first place.</p>
+<p>The table saw and jointer are already connected to a dust collection system, and (provided people are using it) these seem to work well enough. Problematic wood dust creation that was specifically called out at the meeting were the chop saw and sanding work.</p>
+<p>This proposal didn't have as many specific implementation details, but meeting attendees agreed on the value of dust collection, and responses on discord have been similarly supportive.</p>
+<p>We authorized spending up to $1.5k on dust collection equipment to this end.</p>
+<p>This might include ducting, buying independent collection units for the chop saw or palm sanders, vacuum bags, and/or a down draft table.</p>
+<ul>
+<li>👷 TODO: Someone (Matthew M?) will purchase some equipment. If you have some specific ideas for purchases, let him know!</li>
+</ul>
+<h2 id="matthew-wants-to-improve-air-isolation-to-the-woodshop"><a class="header" href="#matthew-wants-to-improve-air-isolation-to-the-woodshop">Matthew wants to improve air isolation to the woodshop</a></h2>
+<p>Related to the other items, dust collection and air re-circulation systems will be more effective the more isolated/sealed off the woodshop is from the rest of the space.</p>
+<p>In particular, there are some large gaps along the concrete wall. Similarly for the metal shop. We should seal them up.</p>
+<p>Additionally it would be possible to seal the wall and ceiling joints.</p>
+<p>Covering plywood surfaces in the main space (with paint of flooring) will also help reduce the amount of dust in the main space.</p>
+<p>These efforts are likely to be relatively inexpensive, and incrementally applied. No budget was proposed for now with the understanding that the expenses are likely to be less than the discretionary spending board members are allowed. (P.S. become a board member and you too can spend some space funds improving altspace with less ceremony!)</p>
+<ul>
+<li>👷 TODO: Unclear who exactly will be doing this work. If you are moved, coordinate with Matthew.</li>
+</ul>
+<h2 id="christian-and-matthew-talked-about-air-quality-vis-a-vis-3-d-printers"><a class="header" href="#christian-and-matthew-talked-about-air-quality-vis-a-vis-3-d-printers">Christian and Matthew talked about air quality vis a vis 3-d printers</a></h2>
+<p>It was noted that most people are using PLA, not ABS.</p>
+<p>They both emit particles, but ABS is much worse for fumes. Should we ban ABS prints? In effect it seems like no one is using it anyway.</p>
+<p>We could build containment vessels with active ventilation hookups for the 3d printers.</p>
+<p>If we built an enclosure, we could consider including a fire suppression system, since the printers may not have thermal fuses in all the right places. Especially important for 3-d printers because people often leave the space while their print completes (which could be many hours).</p>
+<p>No one volunteered to do this work as of yet. Maybe someday... 🥺</p>
+<h2 id="lazzzzzzzzzzzer"><a class="header" href="#lazzzzzzzzzzzer">Lazzzzzzzzzzzer</a></h2>
+<p>I think neither laser is currently working. We recently lost a member due to this.</p>
+<p>Member Allen is very close to having the larger bed laser back online (Thank you Allen!).</p>
+<p>Matthew posed the question: Would it be worth just buying a new (modern) laser with a support plan and modern software?</p>
+<p>Daniel's take: Lasers are cool and they are good at generating excitement and new members, but in his own experience, even when they are functioning, they aren't the kind of "workhorse" tool that people use a lot after the "oh wow" factor wears off. A functioning laser engraver definitely has value, but we should make sure any investment is balanced.</p>
+<p>No additional actions were committed to.</p>
+<h2 id="christian-wants-to-give-our-tools-names-to-help-with-documentation"><a class="header" href="#christian-wants-to-give-our-tools-names-to-help-with-documentation">Christian: Wants to give our tools names to help with documentation</a></h2>
+<p>To help disambiguate tools, lets put stickers on them. At the meeting there was a strong preference that names from Game of Thrones not be used. The note taker hopes they are cute names.</p>
+<ul>
+<li>👷 TODO: Christian will acquire some stickers and come up with names. Suggestions welcome?</li>
+</ul>
+<h2 id="christian-sawstop-riving-knife-clamp-is-no-longer-loose"><a class="header" href="#christian-sawstop-riving-knife-clamp-is-no-longer-loose">Christian: SawStop riving knife clamp is no longer loose!</a></h2>
+<p>Christian has been studying the sawstop safety knife and its unfortunate wobble.</p>
+<p>After some struggle, SawStop supports advice was to just buy a new one ($40), which we would have been happy to do,
+but then Daniel swooped in with just the right hex wrench and know-how,
+and we were able to get the old one back together good as new.</p>
+<ul>
+<li>👷 TODONE: Thank you Daniel and Christian for the TLC keeping our riving knife firm.</li>
+<li>👷 TODO: <em>you</em> should keep an eye on the riving knife. If you notice the riving knife or blade guard is loose again, say something on discord.</li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h2 id="2025-02-03-members-meeting"><a class="header" href="#2025-02-03-members-meeting">2025-02-03 Member's Meeting</a></h2>
 <p>Minutes recorded by: <strong>Michael Kirk</strong></p>
@@ -3043,6 +3129,7 @@ Open house - combine with Critical events. Binders with models available</p>
             window.setTimeout(window.print, 100);
         });
         </script>
+
 
     </div>
     </body>
