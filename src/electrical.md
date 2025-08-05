@@ -8,21 +8,22 @@ If you do trip a breaker use the diagrams below to identify which circuit you tr
 
 ## Circuit Diagram
 
-![alt text](./images/electrical/circuit_diagram.jpg)
+![circuit locations diagram](./images/electrical/circuit_diagram.png)
 
-**Amendments:** 
+**Amendments:**
 - As of some time early 2024, Circuit-C is dead.
 - As of some time early 2024, an additional circuit was extended to the upper level. If someone has the details, update this page or ask someone on discord to update this page.
 
 ## Breaker Locations
 
-Neither of the two breakers are accessible without requesting access from other tenants. Please do not enter another tenants space without getting permission. The other tenants are aware that the circuit breakers are located in their spaces.
+Subpanel D, which powers the 240v in the metal and wood shops, is in our space. It is downstream from Breaker 1.
+
+Neither of the other main two breakers are accessible without requesting access from other tenants. Please do not enter another tenants space without getting permission. The other tenants are aware that the circuit breakers are located in their spaces.
 
 * Breaker 1 - Located in the pottery studio across the hall from the large ALTSpace interior doors
 * Breaker 2 - Located behind the door directly across from the main ALTSpace interior door
 
-![breaker location diagram](./images/electrical/breaker_diagram.jpg)
-
+![breaker location diagram](./images/electrical/breaker_diagram.png)
 
 ## Circuit Breakers
 
