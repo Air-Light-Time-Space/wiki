@@ -1,0 +1,50 @@
+{
+    "DeviceList": [
+        {
+            "Checklist": "",
+            "DefaultCutList": [
+            ],
+            "DefaultToolCutList": [
+            ],
+            "DisplayName": "bigboi",
+            "EnableLaser2Offset": false,
+            "EnableProcessOffset": false,
+            "GUID": "EwLTgwNzJh",
+            "Height": 631,
+            "HomeOnStartup": false,
+            "Info": "10.20.30.16",
+            "Laser2OffsetX": 0,
+            "Laser2OffsetY": 0,
+            "LastCamera": "",
+            "LastDevLibraryPath": "",
+            "MirrorX": false,
+            "MirrorY": false,
+            "Name": "GRBL",
+            "ProcessOffsetX": 0,
+            "ProcessOffsetY": 0,
+            "ReverseIntervalCompensation": false,
+            "Settings": {
+                "CommPort": "ttyUSB2",
+                "DockState_ArtBrowser": false,
+                "DockState_Camera": false,
+                "DockState_Console": true,
+                "DockState_CutLibrary": true,
+                "DockState_LaserFiles": false,
+                "DockState_Move": true,
+                "DockState_ShapeProperties": false,
+                "DockState_VariableText": false,
+                "LaserFire_Power": 0,
+                "LastExportExt": "gc",
+                "LastMachineFileExtension": "",
+                "LastMachineFilePath": "/home/allen",
+                "Units": 1,
+                "UserFinishX": 0,
+                "UserFinishY": 0,
+                "UserOriginX": 0,
+                "UserOriginY": 0
+            },
+            "Type": "TCP",
+            "Width": 966
+        }
+    ]
+}
