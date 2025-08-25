@@ -1,21 +1,20 @@
 # Updating this Manual
 
-The content of this manual lives at
+The content of this manual lives on github at
 <https://github.com/Air-Light-Time-Space/wiki>.
+
+If you have questions about editing the manual, feel free to ask in our discord server or on the mailing list.
+
+Your GitHub user account will need to be added to the [contributors group](https://github.com/orgs/Air-Light-Time-Space/teams/altspace-contributors/members) — ask on discord!
+
+## Structure
+
+The content lives in a series of [markdown](https://guides.github.com/features/mastering-markdown/) files.
 
 The navigation menu is defined in the [SUMMARY.md file](https://github.com/Air-Light-Time-Space/wiki/edit/main/src/SUMMARY.md).
 
-If you're not familiar with Github, or otherwise have questions about editing
-the manual, feel free to ask in our discord server or on the mailing list.
-
-If you are familiar with Github, then hopefully this is straight forward. The
-content lives in a series of
-[markdown](https://guides.github.com/features/mastering-markdown/) files.
-
-Whenever a change is merged, the site will be automatically rebuilt and
-redeployed using [Github
-Actions](https://github.com/Air-Light-Time-Space/wiki/actions). It could
-take a minute.
+Whenever a change is merged to the main branch on GitHub, the site will be automatically rebuilt and redeployed using [Github Actions](https://github.com/Air-Light-Time-Space/wiki/actions). 
+In a minute, your changes should appear on altspace.wiki
 
 ## Previewing your changes locally
 
