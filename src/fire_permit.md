@@ -1,6 +1,6 @@
 # 🔥Fire Permit and Extinguishers🧯
 
-Some of our tools, like welding equipment and the plasma cutter, require us to
+Some of our tools, like welding equipment, require us to
 have an up to date fire permit - it's a piece of paper hanging in the metal
 shop, that must be renewed annually.
 
